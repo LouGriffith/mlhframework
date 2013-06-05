@@ -1,0 +1,428 @@
+<!doctype html>
+<!-- MLH Framework v1.0
+	 Based on HTML5 Boilerplate & Twitter Bootstrap for Methodist Le Bonheur Healthcare -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+	
+		<!-- Basic Page Needs
+		================================================== -->
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title></title>
+			<meta name="description" content="">
+			
+		<!-- Mobile Specific Metas
+		================================================== -->
+		    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+			<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"  />
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="320">
+			
+			<!-- IE Fixes
+		================================================== -->
+			<!-- Based on Foundation & h5bp.com/d/head-Tips
+		
+			<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+			     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+			
+			<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+		
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+		
+			<!--[if (lt IE 9) & (!IEMobile)]>
+				<script src="js/lib/selectivizr.min.js"></script>
+			<![endif]-->
+		
+			<!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+			
+			<!-- IE 9 Pin Site -->
+			<meta name="application-name" content="Sample Title" />
+			<meta name="msapplication-tooltip" content="A description of what this site does." />
+		    
+		    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+			<meta http-equiv="cleartype" content="on">
+			
+		
+			<!-- Facebook Open Graph 
+		================================================== -->
+			<!-- Based on h5bp.com/d/head-Tips -->
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:image" content="" />
+			
+			<!-- CSS
+		================================================== -->
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+			<link rel="stylesheet" href="css/mlhFramework.css">
+
+			<!-- Google Font -->
+			<link href="http://fonts.googleapis.com/css?family=Cabin:regular,500,bold&amp;v1" rel="stylesheet" type="text/css">	
+			
+			<!-- Favicons
+		================================================== -->
+			<link rel="shortcut icon" href="images/favicon.ico">
+			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+			
+			
+			<!-- Modernizr - www.modernizr.com/download/
+		================================================== -->		
+		  	<!-- Modernizr enables HTML5 elements & feature detects for optimal performance. -->
+		  	
+		  	<script src="js/lib/modernizr.min.js"></script>
+			
+		  	  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+	
+	</head>
+
+	<body data-spy="scroll">
+	
+		<div id="page">
+
+			<div class="headerBackground">
+				<header id="header" class="container">
+					<div class="row">
+						<div class="span5">
+							<h1>Brand Name</h1>
+						</div>
+
+						<div class="span7">
+							<div class="row">
+								<div class="span7">
+									<ul class="toolbar nav nav-pills pull-right">
+										<li><a class="active" href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+										<li><a href="#">Link</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="row">
+								<div class="span7">
+									<div class="pull-right">
+							            <div class="input-append pull-left">
+										  	<form class="searchForm" action="/mlhsearch/" method="get">
+										  		<input class="span2" id="basic_search_query" name="q" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search':this.value;" type="text" value="Search">
+										  		<button class="btn" type="submit" alt="Search" value="Search"><i class="icon-search"></i></button>
+										 	</form>
+										</div>
+										<a class="btn btn-success pull-right" href="https://secure.lebonheur.org/apps/mymlh/login/">Login</a>
+									</div>						        
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+			</div>
+			<!-- /end headerBackground -->
+
+			<div class="navBackground">
+				<div id="nav" class="container">
+					<div class="navbar">
+				  		<div class="navbar-inner">
+					    	<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+					    	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					        	<span class="icon-bar"></span>
+					      	</a>
+					 
+					      	<!-- Everything you want hidden at 940px or less, place within here -->
+					      	<div class="nav-collapse collapse">
+					        	<ul class="nav">
+					        		<li class="active">
+					        			<a href="#">Something</a>
+					        		</li>
+					        		<li>
+					        			<a href="#">Something</a>
+					        		</li>
+					        		<li>
+					        			<a href="#">Something</a>
+					        		</li>
+					        	</ul>
+					      	</div>
+				 
+				    	</div>
+				  	</div>
+				</div>
+			</div>
+			<!-- /end headerBackground -->
+
+			<div class="sectionHeaderBackground">
+				<div id="sectionHeader" class="sectionHeader container">
+					<div class="row">
+						<div class="span12">
+							<a class="btn pull-right">Logout</a>
+							<h2>myMethodist Bill Pay</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /end sectionHeaderBackground -->
+
+			<div class="mainBackground">
+				<div id="main" class="container">
+					<div class="pageHeader"></div>
+
+					<form>
+						<div class="row mlhGrouping">
+							<div class="span4 ">
+								<div class="mlhInfo">
+									<h3>Paying For</h3>
+									<p>If you are paying on behalf of yourself, choose the top option.</p>
+									<p>If you are paying on behalf of someone else,e.g. parent or relative, choose the bottom option.</p>
+								</div>
+							</div>
+
+							<div class="span6">
+								<div class="mlhInputs">
+									<fieldset>
+										<legend>I will be paying for</legend>
+
+										<div class="control-group mlhControls">
+											<label class="radio">
+											  <input type="radio" value="myself" checked>
+											  Option one is this and that—be sure to include why it's great
+											</label>
+
+											<label class="radio">
+											  <input type="radio" value="someoneElse">
+											  Option one is this and that—be sure to include why it's great
+											</label>
+										</div>
+									</fieldset>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mlhGrouping">
+							<div class="span4">
+								<div class="mlhInfo">
+									<h3>Methodist Healthcare Bill</h3>
+									<p class="info">On your paper bill, locate the account number and enter it in the "Account Number" field. </p>
+								</div>
+							</div>
+
+							<div class="span6">
+								<div class="mlhInputs">
+									<fieldset>
+										<legend>Methodist Healthcare Bill Information</legend>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Account #</label>
+											<input type="text" placeholder="333-33333-3333">
+										</div>
+
+										<div class="control-group mlhControls">
+											<label class="control-label">Patient's Date of Birth</label>
+											<input type="text" placeholder="333-33333-3333">
+											<span class="help-block">Example block-level help text here.</span>
+										</div>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Last four digits of Patient's Social Security</label>
+											<input type="text" placeholder="333-33333-3333">
+										</div>
+											
+									</fieldset>
+								</div>
+							</div>
+						</div>
+
+						<div class="row mlhGrouping">
+							<div class="span4">
+								<div class="mlhInfo">
+									<h3>Payment</h3>
+									<p class="info">Please enter the amount you are paying, along with your billing information. *We do not store credit card information in our system for future transactions.</p>
+								</div>
+							</div>
+
+							<div class="span6">
+								<div class='mlhInputs'>
+									<fieldset>
+										<legend>Payment Amount</legend>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Ammount you are paying today</label>
+											<div class="controls">
+												$<input type="text" placeholder="100.00">
+											</div>
+										</div>
+											
+									</fieldset>
+
+									<fieldset>
+										<legend>Credit Card Information</legend>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Name on Card</label>
+											<div class="controls">
+												<input type="text" placeholder="First Name Last Name">
+											</div>
+										</div>
+
+										<div class="control-group mlhControls">
+											<label class="control-label" for="creditcard">Credit Card Account #</label>
+											<div class="controls">
+												<input type="text" id="creditcard" placeholder="4444444444444444">
+											</div>
+											<span class="help-block">Numbers only, no dashes or spaces</span>
+										</div>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Expiration Date</label>
+											<div class="controls">
+												<input type="text" placeholder="12/16">
+											</div>
+										</div>
+
+										<div class="control-group mlhControls">
+											<label class="control-label">CVV/CID</label>
+											<div class="controls">
+												<input size="6" maxlength="5" type="text" placeholder="4444">
+											</div>
+											<span class="help-block">The security code on your card.</span>
+										</div>
+											
+									</fieldset>
+
+									<fieldset>
+										<legend>Address on your Credit Card Statement</legend>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">Street Address</label>
+											<div class="controls">
+												<input type="text" placeholder="1234 Main Street">
+											</div>
+										</div>
+
+										<div class="control-group mlhControls">
+											<label class="control-label">Apartment No. Suite No.</label>
+											<div class="controls">
+												<input type="text" placeholder="Apt 30">
+											</div>
+										</div>
+										
+										<div class="control-group mlhControls">
+											<label class="control-label">City</label>
+											<div class="controls">
+												<input type="text" placeholder="333-33333-3333">
+											</div>
+										</div>
+										
+									</fieldset>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<!-- /end mainBackground -->
+
+			<div class="footerBackground">
+				<footer class="footer container">
+					<div class="footerTop row">
+						<div class="span6">
+							<h4 class="footerBrand">Methodist Le Bonheur Healthcare</h4>
+						</div>
+					</div>
+
+					<div class="footerMiddle row">
+						<div class="span3">
+							<div class="footerAddress">
+								<div class="vcard">
+									<p class="tel">(901) 516-7000</p>
+									<p class="adr">
+										<span class="street-address">1211 Union Avenue</span>
+										<span class="region">Memphis, Tennessee</span>
+										<span class="postal-code">38104</span>
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="span4">
+							<p class="footerDesc">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+						</div>
+
+						<div class="span5">
+
+							<div class="footerSocial">
+								<ul class="socialIcons pull-right">
+									<li><a href="#"><i class="icoSocial icoFacebook">Facebook</i></a></li>
+									<li><a href="#"><i class="icoSocial icoTwitter">Twitter</i></a></li>
+									<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+								</ul>
+							</div>
+
+							<div class="footerLegal">
+								<ul class="nav nav-pills legalLinks pull-right">
+									<li><a href="#">Our Centers</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Disclaimer</a></li>
+									<li><a href="#">Legal</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="footerBottom row">
+						<div class="span4">
+							<ul class="nav nav-pills contactLinks ">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Newsroom</a></li>
+							</ul>
+						</div>
+
+						<div class="span8">
+							<p class="copyright small pull-right">&copy; Copyright 2013 Methodist Le Bonheur Healthcare. All Rights Reserved.</p>
+						<div>
+					</div>
+				</footer>
+			</div>
+			<!-- /end footerBackground -->
+			
+		</div>
+		<!-- /end Page -->
+	
+	
+		<!-- JavaScript
+		================================================== -->
+		  	<!-- JavaScript at the bottom for fast page loading -->
+		
+		 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		 	<script>window.jQuery || document.write('<script src="js/lib/jquery.min.js"><\/script>')</script>
+	
+			<!-- Call to Twitter Bootsrap -->
+			<script src="js/lib/bootstrap.min.js"></script>
+			
+			<!-- Call to Custom JS -->
+			<script src="js/application.js"></script>
+
+			
+			<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);"> <!-- Mobile Safari URL shift -->
+			<!-- /end scripts -->
+			
+		<!-- End Document
+		================================================== -->	
+	
+	</body>
+	<!-- /end body -->
+	
+</html>
+<!-- /end html -->

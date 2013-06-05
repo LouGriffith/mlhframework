@@ -1,0 +1,94 @@
+
+
+//socail primary colors
+
+$behance : #0ba7e2;
+$facebook : #365c9f;
+$instagram : #644536;
+$linkedin : #007fb4;
+$pinterest : #cf2a28;
+$twitter : #00acf1;
+$vimeo : #1a8dce;
+$youtube : #cb3525;
+
+@import "socialIcons/white/*.png";
+
+.socialIcons{
+	list-style: none;
+	margin-top: 0px;
+
+	li{
+		display: inline-block;
+	}
+
+}
+
+.icoSocial{
+	display: block;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+@mixin socialIcon($color, $hoverColor){
+	background-color: $color;
+
+	&:hover{
+		background-color: $hoverColor;
+	}
+}
+
+
+
+/*
+.icoBehance{
+	@include socialIcon("inherit", $behance);
+	@include white-sprite(ico_Behance);
+}
+
+*/
+
+/*
+.icoLinkedIn{
+	@include socialIcon("inherit", $linkedin);
+	@include white-sprite(ico_LinkedIn);
+}
+*/
+
+.icoFacebook{
+	@include socialIcon("inherit", $facebook);
+	@include white-sprite(ico_Facebook);
+}
+
+.icoPinterest{
+	@include socialIcon("inherit", $pinterest);
+	@include white-sprite(ico_Pinterest);
+}
+
+.icoTwitter{
+	@include socialIcon("inherit", $twitter);
+	@include white-sprite(ico_Twitter);
+}
+
+/*
+.icoVimeo{
+	@include socialIcon("inherit", $vimeo);
+	@include white-sprite(ico_Vimeo);
+}
+*/
+
+.icoYouTube{
+	@include socialIcon("inherit", $youtube);
+	@include white-sprite(ico_YouTube);
+}
+
+$mlh-phone: "only screen and (max-width : 500px)";
+
+@media #{$mlh-phone} {
+  .footerBackground .pull-right{
+  	float: none;
+  	margin-left: 0px;
+  }
+}

@@ -1,0 +1,123 @@
+.widget{
+	margin-bottom: 20px;
+	background: #F5F4EF;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.widgetTitle{
+	font-size: 1.1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.3em;
+	color: #666;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #DDD;
+}
+
+.storyWidget{
+
+	.storyList{
+		list-style: none;
+		margin-left: 0px;
+
+		li{
+			margin-bottom: 20px;
+		}
+	}
+
+	.storyInfo h3{
+		font-size: 1.3em;
+		line-height: 1.2em;
+		margin-bottom: 5px;
+	}
+}
+
+.blogWidget{
+
+	.blogFeature h3{
+		font-size: 1.3em;
+		line-height: 1.2em;
+		margin-bottom: 5px;
+	}
+
+	.blogLinks{
+		/* due to padding of the overall widget */
+		margin-left: 0px;
+	}
+
+	.blogList{
+		list-style: none;
+		/* due to padding of the overall widget */
+		margin-left: 20px;
+
+		li{
+			margin-bottom: 20px;
+		}
+
+		h3{
+			font-size: 1.2em;
+			line-height: 1.1em;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+
+.eventWidget{
+
+	.eventList{
+		list-style: none;
+		margin-left: 0px;
+
+		li{
+			margin-bottom: 20px;
+		}
+
+	}
+
+	.eventDisplay{
+		float: left;
+		text-align: center;
+		border: 1px solid #DDD;
+		width: 50px;
+		background: white;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+		        border-radius: 5px;
+
+		.eventDate{
+			padding: 0px;
+			width: 50px;
+		}
+
+		.eventMonth {
+			color: white;
+			background: red;
+			padding: 2px 5px;
+			margin-bottom: 4px;
+			font-size: .9em;
+			display: block;
+		}
+
+		.eventDay {
+			padding: 2px 5px;
+			font-size: 1.4em;
+		}
+	}
+
+	.eventInfo{
+		margin-left: 60px;
+
+		h3{
+			font-size: 1.3em;
+			line-height: 1.2em;
+			margin-bottom: 5px;
+		}
+	}
+}

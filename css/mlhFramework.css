@@ -1,0 +1,382 @@
+/*
+ * MLH Framework v1.0
+ *
+ * Copyright 2013 Methodist Le Bonheur Healthcare
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed with care by @lougriffith
+ */
+/* line 1, ../scss/_typography.scss */
+.copyright {
+  font-size: .8em; }
+
+/* line 3, ../scss/_header.scss */
+.headerBackground ul.toolbar {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  background: #F5F4EF;
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+/* line 12, ../scss/_header.scss */
+.headerBackground .input-append {
+  margin-bottom: 0px; }
+/* line 16, ../scss/_header.scss */
+.headerBackground form {
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+/* line 1, ../scss/_nav.scss */
+.navbar {
+  margin-bottom: 0px; }
+
+/* line 5, ../scss/_nav.scss */
+.navbar-inner {
+  padding: 0px;
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+/* line 1, ../scss/_footer.scss */
+.footerDesc {
+  font-size: .9em;
+  line-height: 1.4em; }
+
+/* line 7, ../scss/_footer.scss */
+.footerAddress {
+  font-size: .9em; }
+  /* line 10, ../scss/_footer.scss */
+  .footerAddress .tel {
+    font-size: 1.5em; }
+  /* line 14, ../scss/_footer.scss */
+  .footerAddress .adr {
+    font-size: 1.1em; }
+    /* line 18, ../scss/_footer.scss */
+    .footerAddress .adr .street-address {
+      display: block; }
+
+/* line 30, ../scss/_footer.scss */
+ul.contactLinks {
+  margin-bottom: 0px; }
+  /* line 33, ../scss/_footer.scss */
+  ul.contactLinks li a {
+    font-size: .9em; }
+
+/* line 38, ../scss/_footer.scss */
+ul.legalLinks {
+  margin-bottom: 0px; }
+  /* line 41, ../scss/_footer.scss */
+  ul.legalLinks li a {
+    font-size: .9em; }
+
+/* line 46, ../scss/_footer.scss */
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+@media only screen and (max-width: 500px) {
+  /* line 54, ../scss/_footer.scss */
+  .copyright {
+    display: none; } }
+/* line 1, ../scss/_widgets.scss */
+.widget {
+  margin-bottom: 20px;
+  background: #F5F4EF;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 12, ../scss/_widgets.scss */
+.widgetTitle {
+  font-size: 1.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #666;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DDD; }
+
+/* line 25, ../scss/_widgets.scss */
+.storyWidget .storyList {
+  list-style: none;
+  margin-left: 0px; }
+  /* line 29, ../scss/_widgets.scss */
+  .storyWidget .storyList li {
+    margin-bottom: 20px; }
+/* line 34, ../scss/_widgets.scss */
+.storyWidget .storyInfo h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 5px; }
+
+/* line 43, ../scss/_widgets.scss */
+.blogWidget .blogFeature h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 5px; }
+/* line 49, ../scss/_widgets.scss */
+.blogWidget .blogLinks {
+  /* due to padding of the overall widget */
+  margin-left: 0px; }
+/* line 54, ../scss/_widgets.scss */
+.blogWidget .blogList {
+  list-style: none;
+  /* due to padding of the overall widget */
+  margin-left: 20px; }
+  /* line 59, ../scss/_widgets.scss */
+  .blogWidget .blogList li {
+    margin-bottom: 20px; }
+  /* line 63, ../scss/_widgets.scss */
+  .blogWidget .blogList h3 {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin-bottom: 5px; }
+
+/* line 74, ../scss/_widgets.scss */
+.eventWidget .eventList {
+  list-style: none;
+  margin-left: 0px; }
+  /* line 78, ../scss/_widgets.scss */
+  .eventWidget .eventList li {
+    margin-bottom: 20px; }
+/* line 84, ../scss/_widgets.scss */
+.eventWidget .eventDisplay {
+  float: left;
+  text-align: center;
+  border: 1px solid #DDD;
+  width: 50px;
+  background: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  /* line 94, ../scss/_widgets.scss */
+  .eventWidget .eventDisplay .eventDate {
+    padding: 0px;
+    width: 50px; }
+  /* line 99, ../scss/_widgets.scss */
+  .eventWidget .eventDisplay .eventMonth {
+    color: white;
+    background: red;
+    padding: 2px 5px;
+    margin-bottom: 4px;
+    font-size: .9em;
+    display: block; }
+  /* line 108, ../scss/_widgets.scss */
+  .eventWidget .eventDisplay .eventDay {
+    padding: 2px 5px;
+    font-size: 1.4em; }
+/* line 114, ../scss/_widgets.scss */
+.eventWidget .eventInfo {
+  margin-left: 60px; }
+  /* line 117, ../scss/_widgets.scss */
+  .eventWidget .eventInfo h3 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-bottom: 5px; }
+
+/* line 82, socialIcons/white/*.png */
+.white-sprite, .icoFacebook, .icoPinterest, .icoTwitter, .icoYouTube {
+  background: url('../img/socialIcons/white-scf65b5f35c.png') no-repeat; }
+
+/* line 16, ../scss/_social.scss */
+.socialIcons {
+  list-style: none;
+  margin-top: 0px; }
+  /* line 20, ../scss/_social.scss */
+  .socialIcons li {
+    display: inline-block; }
+
+/* line 26, ../scss/_social.scss */
+.icoSocial {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: #ddd; }
+
+/*
+.icoBehance{
+	@include socialIcon("inherit", $behance);
+	@include white-sprite(ico_Behance);
+}
+
+*/
+/*
+.icoLinkedIn{
+	@include socialIcon("inherit", $linkedin);
+	@include white-sprite(ico_LinkedIn);
+}
+*/
+/* line 60, ../scss/_social.scss */
+.icoFacebook {
+  background-color: "inherit";
+  background-position: 0 -292px; }
+  /* line 38, ../scss/_social.scss */
+  .icoFacebook:hover {
+    background-color: #365c9f; }
+
+/* line 65, ../scss/_social.scss */
+.icoPinterest {
+  background-color: "inherit";
+  background-position: 0 -63px; }
+  /* line 38, ../scss/_social.scss */
+  .icoPinterest:hover {
+    background-color: #cf2a28; }
+
+/* line 70, ../scss/_social.scss */
+.icoTwitter {
+  background-color: "inherit";
+  background-position: 0 -126px; }
+  /* line 38, ../scss/_social.scss */
+  .icoTwitter:hover {
+    background-color: #00acf1; }
+
+/*
+.icoVimeo{
+	@include socialIcon("inherit", $vimeo);
+	@include white-sprite(ico_Vimeo);
+}
+*/
+/* line 82, ../scss/_social.scss */
+.icoYouTube {
+  background-color: "inherit";
+  background-position: 0 0; }
+  /* line 38, ../scss/_social.scss */
+  .icoYouTube:hover {
+    background-color: #cb3525; }
+
+@media only screen and (max-width: 500px) {
+  /* line 90, ../scss/_social.scss */
+  .footerBackground .pull-right {
+    float: none;
+    margin-left: 0px; } }
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /* line 21, ../scss/_mediaQueries.scss */
+  body {
+    padding: 0px; }
+
+  /* line 25, ../scss/_mediaQueries.scss */
+  .container {
+    padding: 0px 20px; } }
+/* line 2, ../scss/_forms.scss */
+.mlhGrouping {
+  background: #FFF;
+  border: 1px solid #ccc;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #ddd; }
+
+/* line 12, ../scss/_forms.scss */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 15px 10px 10px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, rgba(255, 255, 255, 0)), color-stop(42%, rgba(255, 255, 255, 0.13)), color-stop(100%, #f7f7f7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 );
+  /* IE6-9 */ }
+
+/* line 27, ../scss/_forms.scss */
+.mlhInfo {
+  padding-top: 10px; }
+  /* line 29, ../scss/_forms.scss */
+  .mlhInfo h3 {
+    font-size: 1.3em;
+    line-height: 1.2em; }
+
+/* line 36, ../scss/_forms.scss */
+.mlhInputs {
+  border-left: 1px solid #ccc;
+  padding: 5px 20px;
+  margin: 10px 0px; }
+
+/* line 42, ../scss/_forms.scss */
+legend {
+  margin: 0px;
+  width: inherit;
+  padding: 10px;
+  color: #000;
+  font-weight: normal;
+  border-bottom: none;
+  font-size: 1em;
+  background: none;
+  line-height: 1.2em; }
+
+/* line 54, ../scss/_forms.scss */
+legend + .control-group {
+  margin-top: 0px; }
+
+/* line 58, ../scss/_forms.scss */
+.mlhControls {
+  margin-left: 10px; }
+
+/* line 62, ../scss/_forms.scss */
+.help-block {
+  color: #ddd; }
+
+/* line 21, ../scss/mlhFramework.scss */
+#page {
+  background: -moz-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6e8f2), color-stop(58%, rgba(255, 255, 255, 0.13)), color-stop(67%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6e8f2', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */ }
+
+/* line 31, ../scss/mlhFramework.scss */
+body {
+  background: none; }
+
+/* line 35, ../scss/mlhFramework.scss */
+.headerBackground {
+  border-bottom: 1px solid #ddd; }
+
+/* line 39, ../scss/mlhFramework.scss */
+.sectionHeaderBackground {
+  background: white; }
+
+/* line 44, ../scss/mlhFramework.scss */
+.mainBackground .pageHeader {
+  border-top: 4px solid blue; }
+
+/* line 49, ../scss/mlhFramework.scss */
+.navBackground {
+  background: #F5F4EF;
+  margin-bottom: 10px; }
+
+/* line 54, ../scss/mlhFramework.scss */
+.footerBackground {
+  background: #F5F4EF;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px; }

@@ -1,0 +1,60 @@
+/*!
+ * MLH Framework v1.0
+ *
+ * Copyright 2013 Methodist Le Bonheur Healthcare
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed with care by @lougriffith
+ */
+
+ @import "typography";
+
+ @import "header";
+ @import "nav";
+ @import "footer";
+ @import "widgets";
+ @import "social";
+ @import "mediaQueries";
+ @import "forms";
+
+ #page{
+	background: -moz-linear-gradient(top, rgba(198,232,242,1) 0%, rgba(255,255,255,0.13) 58%, rgba(255,255,255,0) 67%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(198,232,242,1)), color-stop(58%,rgba(255,255,255,0.13)), color-stop(67%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(198,232,242,1) 0%,rgba(255,255,255,0.13) 58%,rgba(255,255,255,0) 67%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(198,232,242,1) 0%,rgba(255,255,255,0.13) 58%,rgba(255,255,255,0) 67%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(198,232,242,1) 0%,rgba(255,255,255,0.13) 58%,rgba(255,255,255,0) 67%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(198,232,242,1) 0%,rgba(255,255,255,0.13) 58%,rgba(255,255,255,0) 67%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6e8f2', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+ }
+
+ body{
+ 	background: none;
+ }
+
+ .headerBackground{
+ 	border-bottom: 1px solid #ddd;
+ }
+
+ .sectionHeaderBackground{
+ 	background: white;
+ }
+
+ .mainBackground{
+	.pageHeader{
+ 		border-top: 4px solid blue;
+ 	}
+ }
+
+ .navBackground{
+	background: #F5F4EF;
+	margin-bottom: 10px;
+ }
+
+ .footerBackground{
+	background: #F5F4EF;
+ 	margin-top: 10px;
+ 	border-top: 1px solid #ddd;
+ 	padding-top: 20px;
+ }
+

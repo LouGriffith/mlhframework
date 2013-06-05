@@ -1,0 +1,59 @@
+.footerDesc{
+ 	font-size: .9em;
+ 	line-height: 1.4em;
+}
+
+
+.footerAddress{
+	font-size: .9em;
+
+	.tel{
+		font-size: 1.5em;
+	}
+
+	.adr{
+
+		font-size: 1.1em;
+
+		.street-address{
+			display: block;
+		}
+
+		.region{
+		}
+
+		.postal-code{
+		}
+	}
+}
+
+ul.contactLinks{
+	margin-bottom: 0px;
+
+ 	li a{
+ 		font-size: .9em;
+ 	}
+}
+
+ul.legalLinks {
+	margin-bottom: 0px;
+
+ 	li a{
+ 		font-size: .9em;
+ 	}
+}
+
+.copyright{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+$mlh-phone: "only screen and (max-width : 500px)";
+
+@media #{$mlh-phone} {
+  .copyright{
+  	display: none;
+  }
+}
+
+
