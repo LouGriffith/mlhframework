@@ -275,9 +275,14 @@ ul.legalLinks {
   margin-right: 30px;
   margin-top: 20px;
   border-radius: 5px;
-  box-shadow: 0px 2px 10px #ddd; }
+  box-shadow: 0px 2px 10px #ddd;
+  padding: 10px 20px; }
+  /* line 12, ../scss/_forms.scss */
+  .mlhGrouping .span4 {
+    padding: 0px;
+    margin: 0px; }
 
-/* line 12, ../scss/_forms.scss */
+/* line 18, ../scss/_forms.scss */
 fieldset {
   border: 1px solid #ddd;
   padding: 15px 10px 10px 10px;
@@ -298,21 +303,21 @@ fieldset {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 27, ../scss/_forms.scss */
+/* line 33, ../scss/_forms.scss */
 .mlhInfo {
   padding-top: 10px; }
-  /* line 29, ../scss/_forms.scss */
+  /* line 35, ../scss/_forms.scss */
   .mlhInfo h3 {
     font-size: 1.3em;
     line-height: 1.2em; }
 
-/* line 36, ../scss/_forms.scss */
+/* line 42, ../scss/_forms.scss */
 .mlhInputs {
   border-left: 1px solid #ccc;
   padding: 5px 20px;
   margin: 10px 0px; }
 
-/* line 42, ../scss/_forms.scss */
+/* line 48, ../scss/_forms.scss */
 legend {
   margin: 0px;
   width: inherit;
@@ -322,17 +327,18 @@ legend {
   border-bottom: none;
   font-size: 1em;
   background: none;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  background: white; }
 
-/* line 54, ../scss/_forms.scss */
+/* line 61, ../scss/_forms.scss */
 legend + .control-group {
   margin-top: 0px; }
 
-/* line 58, ../scss/_forms.scss */
+/* line 65, ../scss/_forms.scss */
 .mlhControls {
   margin-left: 10px; }
 
-/* line 62, ../scss/_forms.scss */
+/* line 69, ../scss/_forms.scss */
 .help-block {
   color: #ddd; }
 
