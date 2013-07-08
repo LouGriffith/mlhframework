@@ -1,5 +1,5 @@
 /*!
- * MLH Framework v1.0
+ * MLH Theme of the MLH Framework v1.0
  *
  * Copyright 2013 Methodist Le Bonheur Healthcare
  * Licensed under the Apache License v2.0
@@ -8,15 +8,7 @@
  * Designed with care by @lougriffith
  */
 
- @import "typography";
-
- @import "header";
- @import "nav";
- @import "footer";
- @import "widgets";
- @import "social";
- @import "mediaQueries";
- @import "forms";
+ @import "mlh";
 
  #page{
 	background: -moz-linear-gradient(top, rgba(198,232,242,1) 0%, rgba(255,255,255,0.13) 58%, rgba(255,255,255,0) 67%); /* FF3.6+ */

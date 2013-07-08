@@ -1,5 +1,5 @@
 /*
- * MLH Theme of the MLH Framework v1.0
+ * Methodist Theme of the MLH Framework v1.0
  *
  * Copyright 2013 Methodist Le Bonheur Healthcare
  * Licensed under the Apache License v2.0
@@ -354,47 +354,121 @@ legend + .control-group {
 .help-block {
   color: #ddd; }
 
-/* line 13, ../scss/mlhFramework.scss */
-#page {
-  background: -moz-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6e8f2), color-stop(58%, rgba(255, 255, 255, 0.13)), color-stop(67%, rgba(255, 255, 255, 0)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6e8f2', endColorstr='#00ffffff',GradientType=0 );
-  /* IE6-9 */ }
+/* line 3, ../scss/methodist/_header.scss */
+.headerBackground .toolbar {
+  background: #414445;
+  border: 0px;
+  padding: 0px 5px; }
+  /* line 8, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar a {
+    margin: 0px; }
+  /* line 12, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar a:hover {
+    background: #5a5e5f;
+    border-radius: 0px; }
+  /* line 17, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar.toolbar-green {
+    background: #007574;
+    border-bottom-right-radius: 0px;
+    border-right: 1px solid white; }
+    /* line 22, ../scss/methodist/_header.scss */
+    .headerBackground .toolbar.toolbar-green a:hover {
+      background: #00a8a7;
+      border-radius: 0px; }
+  /* line 28, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar.toolbar-grey {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px; }
+    /* line 32, ../scss/methodist/_header.scss */
+    .headerBackground .toolbar.toolbar-grey a:hover {
+      background: #5a5e5f;
+      border-radius: 0px; }
+  /* line 38, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar.toolbar-blue {
+    background: #00689b;
+    border-bottom-left-radius: 0px;
+    border-left: 1px solid white; }
+  /* line 44, ../scss/methodist/_header.scss */
+  .headerBackground .toolbar a:hover {
+    background: #008ace;
+    border-radius: 0px; }
 
-/* line 23, ../scss/mlhFramework.scss */
-body {
-  background: none; }
-
-/* line 27, ../scss/mlhFramework.scss */
-.headerBackground {
-  border-bottom: 1px solid #ddd; }
-
-/* line 31, ../scss/mlhFramework.scss */
-.sectionHeaderBackground {
-  background: white; }
-
-/* line 36, ../scss/mlhFramework.scss */
-.mainBackground .pageHeader {
-  border-top: 4px solid blue; }
-
-/* line 41, ../scss/mlhFramework.scss */
-.navBackground {
-  background: #F5F4EF;
+/* line 1, ../scss/methodist/_nav.scss */
+.navbar {
   margin-bottom: 10px; }
+  /* line 4, ../scss/methodist/_nav.scss */
+  .navbar .nav > li > a {
+    text-shadow: none;
+    line-height: 1.3em;
+    letter-spacing: -.05em;
+    color: #414445;
+    border-radius: 5px;
+    padding: 5px 10px; }
+    /* line 12, ../scss/methodist/_nav.scss */
+    .navbar .nav > li > a:hover {
+      background: #414445;
+      color: white; }
+      /* line 16, ../scss/methodist/_nav.scss */
+      .navbar .nav > li > a:hover .sub-title {
+        color: #cfcfcf; }
+    /* line 21, ../scss/methodist/_nav.scss */
+    .navbar .nav > li > a.brand:hover {
+      background: #414445 url("../img/methodist/logo_MethodistHeader-white.png") no-repeat 5px;
+      cursor: pointer; }
+    /* line 26, ../scss/methodist/_nav.scss */
+    .navbar .nav > li > a .title {
+      font-size: 1.2em;
+      font-weight: 400;
+      display: block; }
+    /* line 32, ../scss/methodist/_nav.scss */
+    .navbar .nav > li > a .sub-title {
+      font-size: .85em;
+      display: block;
+      color: #cfcfcf; }
+  /* line 39, ../scss/methodist/_nav.scss */
+  .navbar .nav-main {
+    padding: 5px;
+    border-radius: 5px; }
+    /* line 43, ../scss/methodist/_nav.scss */
+    .navbar .nav-main.pull-left {
+      background: #ddebef; }
+      /* line 46, ../scss/methodist/_nav.scss */
+      .navbar .nav-main.pull-left .sub-title {
+        color: #748b94; }
+    /* line 51, ../scss/methodist/_nav.scss */
+    .navbar .nav-main.pull-right {
+      background: #75828c; }
+      /* line 54, ../scss/methodist/_nav.scss */
+      .navbar .nav-main.pull-right .title {
+        color: white; }
+  /* line 60, ../scss/methodist/_nav.scss */
+  .navbar .brand {
+    text-indent: -9999px;
+    margin: 0px;
+    width: 188px;
+    height: 36px;
+    background: url("../img/methodist/logo_MethodistHeader.png") no-repeat 5px; }
+  /* line 74, ../scss/methodist/_nav.scss */
+  .navbar form.navbar-search.pull-left
+  input.search-query {
+    font-size: 1.1em;
+    padding: 8px 5px;
+    border-radius: 5px;
+    width: 170px;
+    border: 1px solid #666;
+    position: relative;
+    margin-left: 5px; }
+  /* line 84, ../scss/methodist/_nav.scss */
+  .navbar input.searchButton {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    border: none; }
 
-/* line 46, ../scss/mlhFramework.scss */
-.footerBackground {
-  background: #F5F4EF;
-  margin-top: 10px;
-  border-top: 1px solid #ddd;
-  padding-top: 20px; }
+/* line 17, ../scss/methodist.scss */
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #444; }

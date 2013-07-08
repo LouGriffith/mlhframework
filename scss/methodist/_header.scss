@@ -1,0 +1,50 @@
+.headerBackground{
+
+	.toolbar{
+		background: $dark-grey;
+		border: 0px;
+		padding: 0px 5px;
+
+		a{
+			margin: 0px;
+		}
+
+		a:hover{
+			background: lighten($dark-grey, 10%);
+			border-radius: 0px;
+		}
+
+		&.toolbar-green{
+			background: $green;
+			border-bottom-right-radius: 0px;
+			border-right: 1px solid $white;
+
+			a:hover{
+				background: lighten($green, 10%);
+				border-radius: 0px;
+			}
+		}
+
+		&.toolbar-grey{
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+
+			a:hover{
+				background: lighten($dark-grey, 10%);
+				border-radius: 0px;
+			}
+		}
+
+		&.toolbar-blue{
+			background: $blue;
+			border-bottom-left-radius: 0px;
+			border-left: 1px solid $white;
+		}
+
+			a:hover{
+				background: lighten($blue, 10%);
+				border-radius: 0px;
+			}
+	}
+
+}
