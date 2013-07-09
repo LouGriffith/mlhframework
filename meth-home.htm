@@ -67,7 +67,7 @@
 			<!-- CSS
 		================================================== -->
 			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+			<!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
 			<link rel="stylesheet" href="css/methodist.css">
 
 			<!-- Google Font -->
@@ -132,7 +132,7 @@
 					      	<div class="nav-collapse collapse">
 					        	<ul class="nav nav-main pull-left">
 					        		<li class="visible-desktop">
-					        			<a class="brand">Methodist Le Bonheur Healthcare</a>
+					        			<a class="brand" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
 					        		</li>
 									<!-- /end logo -->
 
@@ -223,15 +223,27 @@
 							<div class="row">
 								<div class="span4">
 									<div class="widget">
-										<h3 class="widgetTitle">Widget Title</h3>
-										</p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, voluptatem, perspiciatis nisi et dignissimos quae numquam rerum molestias explicabo magnam.</p>
+										<a href="#">
+											<span class="widgetIcon icon_ERwait">ER Wait Times</span>
+										</a>
+
+										<div class="widgetContent">
+											<h3 class="widgetTitle">Welcome Guide</h3>
+											</p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+										</div>
 									</div>
 								</div>
 
 								<div class="span4">
 									<div class="widget">
-										<h3 class="widgetTitle">Widget Title</h3>
-										</p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+										<a href="#">
+											<span class="widgetIcon icon_ERwait">ER Wait Times</span>
+										</a>
+
+										<div class="widgetContent">
+											<h3 class="widgetTitle">ER Wait Times</h3>
+											</p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -272,7 +284,6 @@
 											   	</div>
 										   </li>
 										</ul>
-            
 									</div>
 								</div>
 
@@ -280,8 +291,8 @@
 									<div class="widget blogWidget">
 										<h3 class="widgetTitle">Latest from the Blog</h3>
 										
-										<div class="row">
-											<div class="span4">
+										<div class="row-fluid">
+											<div class="span7">
 										   		<div class="blogFeature">
 											   		<h3>
 											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
@@ -292,7 +303,7 @@
 											   	</div>
 											</div>
 											
-											<div class="span4 blogLinks">
+											<div class="span5 blogLinks">
 												<ul class="blogList">
 												   <li>
 												   		<div class="blogLink">
@@ -330,8 +341,14 @@
 							<div class="row">
 								<div class="span4">
 									<div class="widget">
-										<h3 class="widgetTitle">Widget Title</h3>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
+										<a href="#">
+											<span class="widgetIcon icon_Mobile">Mobile</span>
+										</a>
+
+										<div class="widgetContent">
+											<h3 class="widgetTitle">Connect With Us</h3>
+											</p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+										</div>
 									</div>
 								</div>								
 
@@ -402,14 +419,17 @@
 			<!-- /end mainBackground -->
 
 			<div class="footerBackground">
+				
+				<div class="footer-arc"></div>
+
 				<div class="container">
 					<div class="footerTop row">
 						<div class="span6">
-							<h4 class="footerBrand">Methodist Le Bonheur Healthcare</h4>
+							<h4 class="footerBrand"><i class="logoBeTreatedWell">Methodist Le Bonheur Healthcare</i></h4>
 						</div>
 					</div>
 
-					<div class="footerMiddle row">
+					<div class="footerBottom row">
 						<div class="span3">
 							<div class="footerAddress">
 								<div class="vcard">
@@ -421,15 +441,20 @@
 									</p>
 								</div>
 							</div>
+
+							<ul class="nav nav-pills contactLinks ">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Newsroom</a></li>
+							</ul>
 						</div>
 
 						<div class="span4">
-							<p class="footerDesc">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+							<p class="footerDesc">Methodist Healthcare is an integrated health care delivery system, dedicated to the art of healing through our faith-based commitment to minister to the whole person.</p>
 						</div>
 
 						<div class="span5">
 
-							<div class="footerSocial">
+							<div class="footerSocial row">
 								<ul class="socialIcons pull-right">
 									<li><a href="#"><i class="icoSocial icoFacebook">Facebook</i></a></li>
 									<li><a href="#"><i class="icoSocial icoTwitter">Twitter</i></a></li>
@@ -437,28 +462,17 @@
 								</ul>
 							</div>
 
-							<div class="footerLegal">
+							<div class="footerLegal row">
 								<ul class="nav nav-pills legalLinks pull-right">
 									<li><a href="#">Our Centers</a></li>
 									<li><a href="#">Privacy Policy</a></li>
 									<li><a href="#">Disclaimer</a></li>
 									<li><a href="#">Legal</a></li>
 								</ul>
+
+								<p class="copyright small pull-right">&copy; 2013 Methodist Le Bonheur Healthcare. All Rights Reserved.</p>
 							</div>
 						</div>
-					</div>
-
-					<div class="footerBottom row">
-						<div class="span4">
-							<ul class="nav nav-pills contactLinks ">
-								<li><a href="#">Contact Us</a></li>
-								<li><a href="#">Newsroom</a></li>
-							</ul>
-						</div>
-
-						<div class="span8">
-							<p class="copyright small pull-right">&copy; Copyright 2013 Methodist Le Bonheur Healthcare. All Rights Reserved.</p>
-						<div>
 					</div>
 				</div>
 			</div>

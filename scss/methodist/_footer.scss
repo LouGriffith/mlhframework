@@ -1,0 +1,92 @@
+.footer-arc {
+	display: block;
+	background: url(../img/methodist/img-paint-blue.jpg) no-repeat center 0px;
+	height: 110px;
+	margin-bottom: -30px;
+}
+
+.footerBrand{
+	margin-bottom: 20px;
+}
+
+.footerDesc{
+ 	font-size: .9em;
+ 	line-height: 1.4em;
+}
+
+.footerBottom{
+
+	.nav-pills>li>a{
+		padding: 0px 10px;
+		color: $link-blue;
+		margin: 0px;
+
+		&:hover, 
+		&:visited, 
+		&:focus{
+			background: none;
+			color: $link-blue-hover;
+			text-decoration: underline;
+		}
+
+		&:first-child{
+			padding-left: 0px;
+		}
+	}
+}
+
+
+.footerAddress{
+	font-size: .9em;
+
+	.tel{
+		font-size: 1.5em;
+	}
+
+	.adr{
+
+		font-size: 1.1em;
+
+		.street-address{
+			display: block;
+		}
+
+		.region{
+		}
+
+		.postal-code{
+		}
+	}
+}
+
+ul.contactLinks{
+	margin-bottom: 0px;
+
+ 	li a{
+ 		font-size: .9em;
+ 	}
+}
+
+ul.legalLinks {
+	margin-top: 5px;
+	margin-bottom: 0px;
+
+ 	li a{
+ 		font-size: .9em;
+ 	}
+}
+
+.copyright{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+$mlh-phone: "only screen and (max-width : 500px)";
+
+@media #{$mlh-phone} {
+  .copyright{
+  	display: none;
+  }
+}
+
+

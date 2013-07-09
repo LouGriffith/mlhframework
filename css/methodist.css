@@ -16,82 +16,82 @@
 *
 * Designed with care by @lougriffith
 */
-/* line 1, ../scss/_typography.scss */
+/* line 1, ../scss/mlh/_typography.scss */
 .copyright {
   font-size: .8em; }
 
-/* line 3, ../scss/_header.scss */
+/* line 3, ../scss/mlh/_header.scss */
 .headerBackground .toolbar {
   margin-top: 0px;
   margin-bottom: 10px;
   border: 1px solid #ddd;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; }
-  /* line 10, ../scss/_header.scss */
+  /* line 10, ../scss/mlh/_header.scss */
   .headerBackground .toolbar a {
     color: #fff;
     font-size: .8em; }
-/* line 16, ../scss/_header.scss */
+/* line 16, ../scss/mlh/_header.scss */
 .headerBackground .input-append {
   margin-bottom: 0px; }
-/* line 20, ../scss/_header.scss */
+/* line 20, ../scss/mlh/_header.scss */
 .headerBackground form {
   margin-right: 10px;
   margin-bottom: 10px; }
 
-/* line 1, ../scss/_nav.scss */
+/* line 1, ../scss/mlh/_nav.scss */
 .navbar {
   margin-bottom: 0px; }
 
-/* line 5, ../scss/_nav.scss */
+/* line 5, ../scss/mlh/_nav.scss */
 .navbar-inner {
   padding: 0px;
   background: none;
   border: none;
   box-shadow: none; }
 
-/* line 1, ../scss/_footer.scss */
+/* line 1, ../scss/mlh/_footer.scss */
 .footerDesc {
   font-size: .9em;
   line-height: 1.4em; }
 
-/* line 7, ../scss/_footer.scss */
+/* line 7, ../scss/mlh/_footer.scss */
 .footerAddress {
   font-size: .9em; }
-  /* line 10, ../scss/_footer.scss */
+  /* line 10, ../scss/mlh/_footer.scss */
   .footerAddress .tel {
     font-size: 1.5em; }
-  /* line 14, ../scss/_footer.scss */
+  /* line 14, ../scss/mlh/_footer.scss */
   .footerAddress .adr {
     font-size: 1.1em; }
-    /* line 18, ../scss/_footer.scss */
+    /* line 18, ../scss/mlh/_footer.scss */
     .footerAddress .adr .street-address {
       display: block; }
 
-/* line 30, ../scss/_footer.scss */
+/* line 30, ../scss/mlh/_footer.scss */
 ul.contactLinks {
   margin-bottom: 0px; }
-  /* line 33, ../scss/_footer.scss */
+  /* line 33, ../scss/mlh/_footer.scss */
   ul.contactLinks li a {
     font-size: .9em; }
 
-/* line 38, ../scss/_footer.scss */
+/* line 38, ../scss/mlh/_footer.scss */
 ul.legalLinks {
   margin-bottom: 0px; }
-  /* line 41, ../scss/_footer.scss */
+  /* line 41, ../scss/mlh/_footer.scss */
   ul.legalLinks li a {
     font-size: .9em; }
 
-/* line 46, ../scss/_footer.scss */
+/* line 46, ../scss/mlh/_footer.scss */
 .copyright {
   margin-top: 10px;
   margin-bottom: 0px; }
 
 @media only screen and (max-width: 500px) {
-  /* line 54, ../scss/_footer.scss */
+  /* line 54, ../scss/mlh/_footer.scss */
   .copyright {
     display: none; } }
-/* line 1, ../scss/_widgets.scss */
+/* line 1, ../scss/mlh/_widgets.scss */
 .widget {
   background: white;
   margin-bottom: 20px;
@@ -101,7 +101,7 @@ ul.legalLinks {
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 12, ../scss/_widgets.scss */
+/* line 12, ../scss/mlh/_widgets.scss */
 .widgetTitle {
   font-size: 1.1em;
   font-weight: normal;
@@ -112,50 +112,50 @@ ul.legalLinks {
   padding-bottom: 5px;
   border-bottom: 1px solid #DDD; }
 
-/* line 25, ../scss/_widgets.scss */
+/* line 25, ../scss/mlh/_widgets.scss */
 .storyWidget .storyList {
   list-style: none;
   margin-left: 0px; }
-  /* line 29, ../scss/_widgets.scss */
+  /* line 29, ../scss/mlh/_widgets.scss */
   .storyWidget .storyList li {
     margin-bottom: 20px; }
-/* line 34, ../scss/_widgets.scss */
+/* line 34, ../scss/mlh/_widgets.scss */
 .storyWidget .storyInfo h3 {
   font-size: 1.3em;
   line-height: 1.2em;
   margin-bottom: 5px; }
 
-/* line 43, ../scss/_widgets.scss */
+/* line 43, ../scss/mlh/_widgets.scss */
 .blogWidget .blogFeature h3 {
   font-size: 1.3em;
   line-height: 1.2em;
   margin-bottom: 5px; }
-/* line 49, ../scss/_widgets.scss */
+/* line 49, ../scss/mlh/_widgets.scss */
 .blogWidget .blogLinks {
   /* due to padding of the overall widget */
   margin-left: 0px; }
-/* line 54, ../scss/_widgets.scss */
+/* line 54, ../scss/mlh/_widgets.scss */
 .blogWidget .blogList {
   list-style: none;
   /* due to padding of the overall widget */
   margin-left: 20px; }
-  /* line 59, ../scss/_widgets.scss */
+  /* line 59, ../scss/mlh/_widgets.scss */
   .blogWidget .blogList li {
     margin-bottom: 20px; }
-  /* line 63, ../scss/_widgets.scss */
+  /* line 63, ../scss/mlh/_widgets.scss */
   .blogWidget .blogList h3 {
     font-size: 1.2em;
     line-height: 1.1em;
     margin-bottom: 5px; }
 
-/* line 74, ../scss/_widgets.scss */
+/* line 74, ../scss/mlh/_widgets.scss */
 .eventWidget .eventList {
   list-style: none;
   margin-left: 0px; }
-  /* line 78, ../scss/_widgets.scss */
+  /* line 78, ../scss/mlh/_widgets.scss */
   .eventWidget .eventList li {
     margin-bottom: 20px; }
-/* line 84, ../scss/_widgets.scss */
+/* line 84, ../scss/mlh/_widgets.scss */
 .eventWidget .eventDisplay {
   float: left;
   text-align: center;
@@ -165,11 +165,11 @@ ul.legalLinks {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
-  /* line 94, ../scss/_widgets.scss */
+  /* line 94, ../scss/mlh/_widgets.scss */
   .eventWidget .eventDisplay .eventDate {
     padding: 0px;
     width: 50px; }
-  /* line 99, ../scss/_widgets.scss */
+  /* line 99, ../scss/mlh/_widgets.scss */
   .eventWidget .eventDisplay .eventMonth {
     color: white;
     background: red;
@@ -177,14 +177,14 @@ ul.legalLinks {
     margin-bottom: 4px;
     font-size: .9em;
     display: block; }
-  /* line 108, ../scss/_widgets.scss */
+  /* line 108, ../scss/mlh/_widgets.scss */
   .eventWidget .eventDisplay .eventDay {
     padding: 2px 5px;
     font-size: 1.4em; }
-/* line 114, ../scss/_widgets.scss */
+/* line 114, ../scss/mlh/_widgets.scss */
 .eventWidget .eventInfo {
   margin-left: 60px; }
-  /* line 117, ../scss/_widgets.scss */
+  /* line 117, ../scss/mlh/_widgets.scss */
   .eventWidget .eventInfo h3 {
     font-size: 1.3em;
     line-height: 1.2em;
@@ -194,15 +194,15 @@ ul.legalLinks {
 .white-sprite, .icoFacebook, .icoPinterest, .icoTwitter, .icoYouTube {
   background: url('../img/socialIcons/white-scf65b5f35c.png') no-repeat; }
 
-/* line 16, ../scss/_social.scss */
+/* line 16, ../scss/mlh/_social.scss */
 .socialIcons {
   list-style: none;
   margin-top: 0px; }
-  /* line 20, ../scss/_social.scss */
+  /* line 20, ../scss/mlh/_social.scss */
   .socialIcons li {
     display: inline-block; }
 
-/* line 26, ../scss/_social.scss */
+/* line 26, ../scss/mlh/_social.scss */
 .icoSocial {
   display: block;
   width: 60px;
@@ -224,27 +224,27 @@ ul.legalLinks {
 	@include white-sprite(ico_LinkedIn);
 }
 */
-/* line 60, ../scss/_social.scss */
+/* line 60, ../scss/mlh/_social.scss */
 .icoFacebook {
   background-color: "inherit";
   background-position: 0 -292px; }
-  /* line 38, ../scss/_social.scss */
+  /* line 38, ../scss/mlh/_social.scss */
   .icoFacebook:hover {
     background-color: #365c9f; }
 
-/* line 65, ../scss/_social.scss */
+/* line 65, ../scss/mlh/_social.scss */
 .icoPinterest {
   background-color: "inherit";
   background-position: 0 -63px; }
-  /* line 38, ../scss/_social.scss */
+  /* line 38, ../scss/mlh/_social.scss */
   .icoPinterest:hover {
     background-color: #cf2a28; }
 
-/* line 70, ../scss/_social.scss */
+/* line 70, ../scss/mlh/_social.scss */
 .icoTwitter {
   background-color: "inherit";
   background-position: 0 -126px; }
-  /* line 38, ../scss/_social.scss */
+  /* line 38, ../scss/mlh/_social.scss */
   .icoTwitter:hover {
     background-color: #00acf1; }
 
@@ -254,16 +254,16 @@ ul.legalLinks {
 	@include white-sprite(ico_Vimeo);
 }
 */
-/* line 82, ../scss/_social.scss */
+/* line 82, ../scss/mlh/_social.scss */
 .icoYouTube {
   background-color: "inherit";
   background-position: 0 0; }
-  /* line 38, ../scss/_social.scss */
+  /* line 38, ../scss/mlh/_social.scss */
   .icoYouTube:hover {
     background-color: #cb3525; }
 
 @media only screen and (max-width: 500px) {
-  /* line 90, ../scss/_social.scss */
+  /* line 90, ../scss/mlh/_social.scss */
   .footerBackground .pull-right {
     float: none;
     margin-left: 0px; } }
@@ -272,14 +272,14 @@ ul.legalLinks {
 /* Landscape phone to portrait tablet */
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 21, ../scss/_mediaQueries.scss */
+  /* line 21, ../scss/mlh/_mediaQueries.scss */
   body {
     padding: 0px; }
 
-  /* line 25, ../scss/_mediaQueries.scss */
+  /* line 25, ../scss/mlh/_mediaQueries.scss */
   .container {
     padding: 0px 20px; } }
-/* line 2, ../scss/_forms.scss */
+/* line 2, ../scss/mlh/_forms.scss */
 .mlhGrouping {
   background: #FFF;
   border: 1px solid #ccc;
@@ -289,12 +289,12 @@ ul.legalLinks {
   border-radius: 5px;
   box-shadow: 0px 2px 10px #ddd;
   padding: 10px 20px; }
-  /* line 12, ../scss/_forms.scss */
+  /* line 12, ../scss/mlh/_forms.scss */
   .mlhGrouping .span4 {
     padding: 0px;
     margin: 0px; }
 
-/* line 18, ../scss/_forms.scss */
+/* line 18, ../scss/mlh/_forms.scss */
 fieldset {
   border: 1px solid #ddd;
   padding: 15px 10px 10px 10px;
@@ -315,21 +315,21 @@ fieldset {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 );
   /* IE6-9 */ }
 
-/* line 33, ../scss/_forms.scss */
+/* line 33, ../scss/mlh/_forms.scss */
 .mlhInfo {
   padding-top: 10px; }
-  /* line 35, ../scss/_forms.scss */
+  /* line 35, ../scss/mlh/_forms.scss */
   .mlhInfo h3 {
     font-size: 1.3em;
     line-height: 1.2em; }
 
-/* line 42, ../scss/_forms.scss */
+/* line 42, ../scss/mlh/_forms.scss */
 .mlhInputs {
   border-left: 1px solid #ccc;
   padding: 5px 20px;
   margin: 10px 0px; }
 
-/* line 48, ../scss/_forms.scss */
+/* line 48, ../scss/mlh/_forms.scss */
 legend {
   margin: 0px;
   width: inherit;
@@ -342,17 +342,52 @@ legend {
   line-height: 1.2em;
   background: white; }
 
-/* line 61, ../scss/_forms.scss */
+/* line 61, ../scss/mlh/_forms.scss */
 legend + .control-group {
   margin-top: 0px; }
 
-/* line 65, ../scss/_forms.scss */
+/* line 65, ../scss/mlh/_forms.scss */
 .mlhControls {
   margin-left: 10px; }
 
-/* line 69, ../scss/_forms.scss */
+/* line 69, ../scss/mlh/_forms.scss */
 .help-block {
   color: #ddd; }
+
+/* line 1, ../scss/methodist/_widgets.scss */
+.widget {
+  border: 0px; }
+
+/* line 5, ../scss/methodist/_widgets.scss */
+.widgetIcon {
+  float: left;
+  width: 64px;
+  height: 64px;
+  border-radius: 5px;
+  background: #414445;
+  text-indent: -9999px;
+  margin: 5px; }
+
+/* line 15, ../scss/methodist/_widgets.scss */
+.widgetContent {
+  margin-left: 77px; }
+
+/* line 21, ../scss/methodist/_widgets.scss */
+.eventWidget .eventDisplay {
+  background: #ddebef; }
+  /* line 24, ../scss/methodist/_widgets.scss */
+  .eventWidget .eventDisplay .eventMonth {
+    color: white;
+    background: #c60055;
+    padding: 2px 5px;
+    margin-bottom: 4px;
+    font-size: .9em;
+    display: block; }
+  /* line 33, ../scss/methodist/_widgets.scss */
+  .eventWidget .eventDisplay .eventDay {
+    color: #00689b;
+    padding: 2px 5px;
+    font-size: 1.4em; }
 
 /* line 3, ../scss/methodist/_header.scss */
 .headerBackground .toolbar {
@@ -412,9 +447,9 @@ legend + .control-group {
       .navbar .nav > li > a:hover .sub-title {
         color: #cfcfcf; }
     /* line 21, ../scss/methodist/_nav.scss */
-    .navbar .nav > li > a.brand:hover {
-      background: #414445 url("../img/methodist/logo_MethodistHeader-white.png") no-repeat 5px;
-      cursor: pointer; }
+    .navbar .nav > li > a.brand {
+      margin: 0px;
+      padding: 0px; }
     /* line 26, ../scss/methodist/_nav.scss */
     .navbar .nav > li > a .title {
       font-size: 1.2em;
@@ -425,30 +460,23 @@ legend + .control-group {
       font-size: .85em;
       display: block;
       color: #cfcfcf; }
-  /* line 39, ../scss/methodist/_nav.scss */
+  /* line 41, ../scss/methodist/_nav.scss */
   .navbar .nav-main {
     padding: 5px;
     border-radius: 5px; }
-    /* line 43, ../scss/methodist/_nav.scss */
+    /* line 45, ../scss/methodist/_nav.scss */
     .navbar .nav-main.pull-left {
       background: #ddebef; }
-      /* line 46, ../scss/methodist/_nav.scss */
+      /* line 48, ../scss/methodist/_nav.scss */
       .navbar .nav-main.pull-left .sub-title {
         color: #748b94; }
-    /* line 51, ../scss/methodist/_nav.scss */
+    /* line 53, ../scss/methodist/_nav.scss */
     .navbar .nav-main.pull-right {
       background: #75828c; }
-      /* line 54, ../scss/methodist/_nav.scss */
+      /* line 56, ../scss/methodist/_nav.scss */
       .navbar .nav-main.pull-right .title {
         color: white; }
-  /* line 60, ../scss/methodist/_nav.scss */
-  .navbar .brand {
-    text-indent: -9999px;
-    margin: 0px;
-    width: 188px;
-    height: 36px;
-    background: url("../img/methodist/logo_MethodistHeader.png") no-repeat 5px; }
-  /* line 74, ../scss/methodist/_nav.scss */
+  /* line 64, ../scss/methodist/_nav.scss */
   .navbar form.navbar-search.pull-left
   input.search-query {
     font-size: 1.1em;
@@ -458,7 +486,7 @@ legend + .control-group {
     border: 1px solid #666;
     position: relative;
     margin-left: 5px; }
-  /* line 84, ../scss/methodist/_nav.scss */
+  /* line 74, ../scss/methodist/_nav.scss */
   .navbar input.searchButton {
     position: absolute;
     right: 8px;
@@ -466,9 +494,148 @@ legend + .control-group {
     width: 20px;
     height: 20px;
     text-indent: -9999px;
-    border: none; }
+    border: none;
+    background: url("../img/methodist/ico_Search.png") no-repeat; }
 
-/* line 17, ../scss/methodist.scss */
+/* line 90, ../img/methodist/*.png */
+.methodist-sprite, .logoMethodist, .logoBeTreatedWell, .icoFacebook, .icoTwitter, .icoYouTube {
+  background: url('../img/../img/methodist-sb0312bb5ec.png') no-repeat; }
+
+/* line 4, ../scss/methodist/_social.scss */
+.socialIcons {
+  list-style: none;
+  margin-top: 10px; }
+  /* line 8, ../scss/methodist/_social.scss */
+  .socialIcons li {
+    display: inline-block; }
+
+/* line 14, ../scss/methodist/_social.scss */
+.icoSocial {
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px; }
+
+/* line 24, ../scss/methodist/_social.scss */
+.logoMethodist {
+  background-position: 0 0;
+  margin: 0px;
+  width: 168px;
+  height: 36px;
+  text-indent: -9999px;
+  cursor: pointer;
+  display: block;
+  padding: 5px 10px; }
+  /* line 43, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+  .logoMethodist:hover, .logoMethodist.logo_Methodist_hover, .logoMethodist.logo_Methodist-hover {
+    background-position: 0 -114px; }
+
+/* line 35, ../scss/methodist/_social.scss */
+.logoBeTreatedWell {
+  background-position: 0 -47px;
+  margin: 0px;
+  width: 274px;
+  height: 34px;
+  text-indent: -9999px;
+  display: block; }
+
+/* line 44, ../scss/methodist/_social.scss */
+.icoFacebook {
+  background-color: "inherit";
+  background-position: -20px -82px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoFacebook:hover {
+    background-color: #365c9f; }
+
+/* line 49, ../scss/methodist/_social.scss */
+.icoTwitter {
+  background-color: "inherit";
+  background-position: -52px -82px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoTwitter:hover {
+    background-color: #00acf1; }
+
+/* line 54, ../scss/methodist/_social.scss */
+.icoYouTube {
+  background-color: "inherit";
+  background-position: -84px -82px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoYouTube:hover {
+    background-color: #cb3525; }
+
+/* line 1, ../scss/methodist/_footer.scss */
+.footer-arc {
+  display: block;
+  background: url(../img/methodist/img-paint-blue.jpg) no-repeat center 0px;
+  height: 110px;
+  margin-bottom: -30px; }
+
+/* line 8, ../scss/methodist/_footer.scss */
+.footerBrand {
+  margin-bottom: 20px; }
+
+/* line 12, ../scss/methodist/_footer.scss */
+.footerDesc {
+  font-size: .9em;
+  line-height: 1.4em; }
+
+/* line 19, ../scss/methodist/_footer.scss */
+.footerBottom .nav-pills > li > a {
+  padding: 0px 10px;
+  color: #0088cc;
+  margin: 0px; }
+  /* line 26, ../scss/methodist/_footer.scss */
+  .footerBottom .nav-pills > li > a:hover, .footerBottom .nav-pills > li > a:visited, .footerBottom .nav-pills > li > a:focus {
+    background: none;
+    color: #005580;
+    text-decoration: underline; }
+  /* line 32, ../scss/methodist/_footer.scss */
+  .footerBottom .nav-pills > li > a:first-child {
+    padding-left: 0px; }
+
+/* line 39, ../scss/methodist/_footer.scss */
+.footerAddress {
+  font-size: .9em; }
+  /* line 42, ../scss/methodist/_footer.scss */
+  .footerAddress .tel {
+    font-size: 1.5em; }
+  /* line 46, ../scss/methodist/_footer.scss */
+  .footerAddress .adr {
+    font-size: 1.1em; }
+    /* line 50, ../scss/methodist/_footer.scss */
+    .footerAddress .adr .street-address {
+      display: block; }
+
+/* line 62, ../scss/methodist/_footer.scss */
+ul.contactLinks {
+  margin-bottom: 0px; }
+  /* line 65, ../scss/methodist/_footer.scss */
+  ul.contactLinks li a {
+    font-size: .9em; }
+
+/* line 70, ../scss/methodist/_footer.scss */
+ul.legalLinks {
+  margin-top: 5px;
+  margin-bottom: 0px; }
+  /* line 74, ../scss/methodist/_footer.scss */
+  ul.legalLinks li a {
+    font-size: .9em; }
+
+/* line 79, ../scss/methodist/_footer.scss */
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+@media only screen and (max-width: 500px) {
+  /* line 87, ../scss/methodist/_footer.scss */
+  .copyright {
+    display: none; } }
+/* line 21, ../scss/methodist.scss */
 body {
+  background: url(../img/methodist/img-paint-blue.jpg) repeat-x center -120px;
   font-family: 'Cabin', sans-serif;
-  color: #444; }
+  color: #444;
+  margin-bottom: 10px; }

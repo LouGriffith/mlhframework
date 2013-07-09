@@ -8,15 +8,21 @@
  * Designed with care by @lougriffith
  */
  
- @import "mlh";
+ @import "mlh/mlh";
 
  @import "methodist/bits";
+ @import "methodist/widgets";
+
  @import "methodist/header";
  @import "methodist/nav";
+ @import "methodist/social";
+ @import "methodist/footer";
 
- body{
+body{
+	background: url(../img/methodist/img-paint-blue.jpg) repeat-x center -120px;
 	font-family: 'Cabin', sans-serif;
 	color: #444;
+	margin-bottom: 10px;
 }
  
 

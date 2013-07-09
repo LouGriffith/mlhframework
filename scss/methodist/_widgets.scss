@@ -1,0 +1,39 @@
+.widget{
+	border: 0px;
+}
+
+.widgetIcon{
+	float: left;
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+	background: $dark-grey;
+	text-indent: -9999px;
+	margin: 5px;
+}
+
+.widgetContent{
+	margin-left: 77px;
+}
+
+.eventWidget{
+
+	.eventDisplay {
+		background: $light-blue;
+
+		.eventMonth {
+			color: $white;
+			background: $red;
+			padding: 2px 5px;
+			margin-bottom: 4px;
+			font-size: .9em;
+			display: block;
+		}
+
+		.eventDay {
+			color: $blue;
+			padding: 2px 5px;
+			font-size: 1.4em;
+		}
+	}
+}
