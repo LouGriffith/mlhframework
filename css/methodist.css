@@ -363,19 +363,24 @@ legend + .control-group {
   float: left;
   width: 64px;
   height: 64px;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #414445;
   text-indent: -9999px;
   margin: 5px; }
 
 /* line 15, ../scss/methodist/_widgets.scss */
 .widgetContent {
-  margin-left: 77px; }
+  margin-left: 80px; }
 
-/* line 21, ../scss/methodist/_widgets.scss */
+/* line 19, ../scss/methodist/_widgets.scss */
+.erTime {
+  color: #b40000;
+  margin: 0px; }
+
+/* line 26, ../scss/methodist/_widgets.scss */
 .eventWidget .eventDisplay {
   background: #ddebef; }
-  /* line 24, ../scss/methodist/_widgets.scss */
+  /* line 29, ../scss/methodist/_widgets.scss */
   .eventWidget .eventDisplay .eventMonth {
     color: white;
     background: #c60055;
@@ -383,7 +388,7 @@ legend + .control-group {
     margin-bottom: 4px;
     font-size: .9em;
     display: block; }
-  /* line 33, ../scss/methodist/_widgets.scss */
+  /* line 38, ../scss/methodist/_widgets.scss */
   .eventWidget .eventDisplay .eventDay {
     color: #00689b;
     padding: 2px 5px;
@@ -427,6 +432,22 @@ legend + .control-group {
   .headerBackground .toolbar a:hover {
     background: #008ace;
     border-radius: 0px; }
+
+/* line 1, ../scss/methodist/_sectionHeader.scss */
+.sectionHeaderBackground {
+  background: white; }
+
+/* line 5, ../scss/methodist/_sectionHeader.scss */
+.sectionHeader {
+  padding: 10px 0px; }
+
+/* line 9, ../scss/methodist/_sectionHeader.scss */
+.pageHeader {
+  border-top: 1px solid #00689b;
+  padding: 5px 0px;
+  background: #ddebef;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
 
 /* line 1, ../scss/methodist/_nav.scss */
 .navbar {
@@ -497,9 +518,9 @@ legend + .control-group {
     border: none;
     background: url("../img/methodist/ico_Search.png") no-repeat; }
 
-/* line 90, ../img/methodist/*.png */
-.methodist-sprite, .logoMethodist, .logoBeTreatedWell, .icoFacebook, .icoTwitter, .icoYouTube {
-  background: url('../img/../img/methodist-sb0312bb5ec.png') no-repeat; }
+/* line 114, ../img/methodist/*.png */
+.methodist-sprite, .logoMethodist, .logoBeTreatedWell, .icon_Welcome, .icon_Mobile, .icon_ERwait, .icoTwitter, .icoYouTube {
+  background: url('../img/../img/methodist-s73fbebdb3a.png') no-repeat; }
 
 /* line 4, ../scss/methodist/_social.scss */
 .socialIcons {
@@ -521,7 +542,7 @@ legend + .control-group {
 
 /* line 24, ../scss/methodist/_social.scss */
 .logoMethodist {
-  background-position: 0 0;
+  background-position: 0 -99px;
   margin: 0px;
   width: 168px;
   height: 36px;
@@ -531,11 +552,11 @@ legend + .control-group {
   padding: 5px 10px; }
   /* line 43, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
   .logoMethodist:hover, .logoMethodist.logo_Methodist_hover, .logoMethodist.logo_Methodist-hover {
-    background-position: 0 -114px; }
+    background-position: 0 -146px; }
 
 /* line 35, ../scss/methodist/_social.scss */
 .logoBeTreatedWell {
-  background-position: 0 -47px;
+  background-position: 0 -64px;
   margin: 0px;
   width: 274px;
   height: 34px;
@@ -543,25 +564,32 @@ legend + .control-group {
   display: block; }
 
 /* line 44, ../scss/methodist/_social.scss */
-.icoFacebook {
-  background-color: "inherit";
-  background-position: -20px -82px; }
-  /* line 38, ../scss/mlh/_social.scss */
-  .icoFacebook:hover {
-    background-color: #365c9f; }
+.icon_Welcome {
+  background-color: #009fbb;
+  background-position: 0 0; }
 
-/* line 49, ../scss/methodist/_social.scss */
+/* line 50, ../scss/methodist/_social.scss */
+.icon_Mobile {
+  background-color: #006a31;
+  background-position: -64px 0; }
+
+/* line 55, ../scss/methodist/_social.scss */
+.icon_ERwait {
+  background-color: #b40000;
+  background-position: -128px 0; }
+
+/* line 60, ../scss/methodist/_social.scss */
 .icoTwitter {
   background-color: "inherit";
-  background-position: -52px -82px; }
+  background-position: -240px -99px; }
   /* line 38, ../scss/mlh/_social.scss */
   .icoTwitter:hover {
     background-color: #00acf1; }
 
-/* line 54, ../scss/methodist/_social.scss */
+/* line 65, ../scss/methodist/_social.scss */
 .icoYouTube {
   background-color: "inherit";
-  background-position: -84px -82px; }
+  background-position: -188px -146px; }
   /* line 38, ../scss/mlh/_social.scss */
   .icoYouTube:hover {
     background-color: #cb3525; }
@@ -633,7 +661,7 @@ ul.legalLinks {
   /* line 87, ../scss/methodist/_footer.scss */
   .copyright {
     display: none; } }
-/* line 21, ../scss/methodist.scss */
+/* line 22, ../scss/methodist.scss */
 body {
   background: url(../img/methodist/img-paint-blue.jpg) repeat-x center -120px;
   font-family: 'Cabin', sans-serif;

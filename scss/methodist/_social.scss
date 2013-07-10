@@ -41,9 +41,20 @@ $methodist-layout: smart;
 	display: block;
 }
 
-.icoFacebook{
-	@include socialIcon("inherit", $facebook);
-	@include methodist-sprite(ico_Facebook);
+.icon_Welcome{
+	background-color: $welcome;
+	@include methodist-sprite(ico_Welcome);
+}
+
+
+.icon_Mobile{
+	background-color: $mobile;
+	@include methodist-sprite(ico_Mobile);
+}
+
+.icon_ERwait{
+	background-color: $erwait;	
+	@include methodist-sprite(ico_ERwait);
 }
 
 .icoTwitter{

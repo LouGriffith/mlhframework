@@ -6,14 +6,19 @@
 	float: left;
 	width: 64px;
 	height: 64px;
-	border-radius: 5px;
+	border-radius: 10px;
 	background: $dark-grey;
 	text-indent: -9999px;
 	margin: 5px;
 }
 
 .widgetContent{
-	margin-left: 77px;
+	margin-left: 80px;
+}
+
+.erTime{
+	color: $erwait;
+	margin: 0px;
 }
 
 .eventWidget{
