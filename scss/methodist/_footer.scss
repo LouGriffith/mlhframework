@@ -84,9 +84,26 @@ ul.legalLinks {
 $mlh-phone: "only screen and (max-width : 500px)";
 
 @media #{$mlh-phone} {
-  .copyright{
-  	display: none;
-  }
+  	.footer-arc {
+		display: block;
+		background: url(../img/methodist/img-paint-blue.jpg) no-repeat center 0px;
+		height: 60px;
+		margin-top: 30px;
+		margin-bottom: -30px;
+	}
+
+	.footerDesc{
+	 	margin-top: 20px;
+	}
+
+  	.copyright{
+  		display: none;
+  	}
 }
 
+@media (min-width: 1200px) {
+	.footer-arc{
+		margin-bottom: 0px;
+	}
+}
 

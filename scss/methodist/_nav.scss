@@ -83,3 +83,44 @@
 		}
 
 }
+
+form.mobile-search {
+	background: $nav-grey; 
+	padding: 5px;
+	border-radius: 5px;
+
+	input.search-query {
+		font-size: 1.1em;
+		padding: 8px 5px;
+		border-radius: 5px;
+		border: 1px solid #666;
+		position: relative;
+		width: 98.4%;
+	}
+
+	input.searchButton {
+		position: absolute;
+		right: 14px;
+		top: 14px;
+		width: 20px;
+		height: 20px;
+		text-indent: -9999px;
+		border: none;
+		background: url("../img/methodist/ico_Search.png") no-repeat;
+	}
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+	form.mobile-search {
+
+		input.search-query {
+			width: 96%;
+		}
+		
+	}
+
+
+
+}

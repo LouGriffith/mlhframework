@@ -57,6 +57,11 @@ $methodist-layout: smart;
 	@include methodist-sprite(ico_ERwait);
 }
 
+.icoFacebook{
+	@include socialIcon("inherit", $facebook);
+	@include methodist-sprite(ico_Facebook);
+}
+
 .icoTwitter{
 	@include socialIcon("inherit", $twitter);
 	@include methodist-sprite(ico_Twitter);

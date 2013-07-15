@@ -283,8 +283,8 @@ ul.legalLinks {
 .mlhGrouping {
   background: #FFF;
   border: 1px solid #ccc;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0px 2px 10px #ddd;
@@ -297,7 +297,7 @@ ul.legalLinks {
 /* line 18, ../scss/mlh/_forms.scss */
 fieldset {
   border: 1px solid #ddd;
-  padding: 15px 10px 10px 10px;
+  padding: 1em 1.2em;
   margin-top: 10px;
   margin-bottom: 20px;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
@@ -351,9 +351,43 @@ legend + .control-group {
   margin-left: 10px; }
 
 /* line 69, ../scss/mlh/_forms.scss */
-.help-block {
-  color: #ddd; }
+.form-actions {
+  margin-bottom: 10px; }
 
+/* line 73, ../scss/mlh/_forms.scss */
+.help-block {
+  color: #ddd;
+  display: none; }
+
+/* line 79, ../scss/mlh/_forms.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 5px 10px 10px 0px; }
+
+@media (max-width: 979px) {
+  /* line 85, ../scss/mlh/_forms.scss */
+  input[type="submit"],
+  input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px; }
+
+  /* line 90, ../scss/mlh/_forms.scss */
+  .myPass {
+    display: block; } }
+@media (max-width: 480px) {
+  /* line 97, ../scss/mlh/_forms.scss */
+  .mlhGrouping {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 10px 10px; }
+
+  /* line 107, ../scss/mlh/_forms.scss */
+  .form-actions {
+    margin-bottom: 0px; } }
 /* line 13, ../scss/mlhFramework.scss */
 #page {
   background: -moz-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);

@@ -7,9 +7,49 @@
 }
 
 .pageHeader{
-	border-top: 1px solid $blue;
-	padding: 5px 0px;
-	background: $light-blue;
+	border-top: 2px solid $blue;
+	padding: 0px 0px 5px;
+	background: $meth-blue;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+}
+
+#breadcrumbs {
+	padding: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	ul{
+		padding: 0px 10px;
+		margin: 0 0 0px;
+		list-style: none;
+		display: table;
+	}
+
+	li::before {
+		content: "> \0020";
+		padding: 0px 5px 0px 0px;
+		color: #ccc;
+	}
+
+	li {
+		float: left;
+		margin-left: 10px;
+		font-size: 1.5em;
+	}
+
+	li>a{
+		font-size: .85em;
+	}
+
+	li:first-child {
+		display: none;
+	}
+
+	li:nth-child(2)::before {
+		content: "";
+		padding: 0;
+		float: left;
+	}
+
 }

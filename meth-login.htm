@@ -67,7 +67,7 @@
 			<!-- CSS
 		================================================== -->
 			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 			<link rel="stylesheet" href="css/methodist.css">
 
 			<!-- Google Font -->
@@ -121,12 +121,21 @@
 				<div class="container">
 					<div class="navbar">
 				  		<div class="navbar-inner">
-					    	<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-					    	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					      	</a>
+
+					      	<div class="btn-toolbar hidden-desktop">
+			                   <div class="btn-group">
+			                      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+			                      <a class="btn btn-nav" data-toggle="collapse" data-target=".nav-collapse">
+			                        <i class="icon-th-list"></i>
+			                      </a>
+			                   
+			                      <!-- .btn-navbar is used as the toggle for collapsed search content -->
+			                      <a class="btn btn-nav" data-toggle="collapse" data-target=".search-collapse">
+			                          <i class="icon-search"></i>
+			                      </a>
+			                    </div>
+			                    <!-- /end mobile btn-group -->
+			                </div>
 					 
 					      	<!-- Everything you want hidden at 940px or less, place within here -->
 					      	<div class="nav-collapse collapse">
@@ -180,6 +189,16 @@
 					        	</ul>
 					        	<!-- /end right nav-main -->
 					      	</div>
+					      	<!-- /end main nav -->
+
+					      	<div class="search-collapse collapse hidden-desktop">
+					      		<form class="mobile-search" action="/mlhsearch/" method="get">
+							    	<input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									<input class="searchButton" type="submit" alt="Search" value="Go">
+							    </form>
+					            <!-- /end mobile-search -->
+			                </div>
+			                <!-- /end mobile search -->
 				 
 				    	</div>
 				  	</div>
@@ -191,17 +210,15 @@
 		    	<div class="sectionHeader container">
 				    <div class="row">
 				        <div class="span12">
-				          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-				          	<a class="btn sp-section-nav-btn pull-right hidden-desktop" data-toggle="collapse" data-target=".section-collapse">
-				            	<i class="icon-chevron-down"></i>
-				          	</a>
-				          
 				          	<div id="breadcrumbs" class="">
 				         		<ul>
 				         			<li>
 				         				<a href="/">Home</a>
 				         			</li>
-				         			<li>Patients &amp; Guests</li>
+				         			<li>
+				         				<a href="/">myMethodist</a>
+				         			</li>
+				         			<li>Login</li>
 				         		</ul>
 					        </div>
 				          	<!-- /end breadcrubms -->
@@ -223,13 +240,13 @@
 					<div class="row">
 						<div class="span6">
 							<form class="mlhGrouping">
-								<fieldset class="control-group error">
+								<fieldset class="control-group">
 									<legend>What is your email address?</legend>
 									<input class="input-block-level"type="email">
     								<span class="help-block">Something may have gone wrong</span>
 								</fieldset>
 
-								<fieldset id="myPassword" class="control-group error">
+								<fieldset id="myPassword" class="control-group">
 									<legend>Do you have an account?</legend>									
 										
 										<label for="accountNo" class="side">
@@ -239,7 +256,7 @@
 
 										<label for="accountYes" class="side">
 											<input type="radio" name="account" id="accountYes" checked="checked">
-											Yes, I have an account. My password is:
+											Yes, I have an account. <span class="myPass">My password is:</span>
 										</label>
 
 										<input class="input-block-level" type="password">
@@ -262,8 +279,11 @@
 									<li>Pay hospital and doctor's office bills online</li>
 									<li>Communicate with your Methodist primary care physician's office</li>
 									<li>Complete a profile with Methodist so that we know the best way to get in touch with you</li>
-									<li>We'll continue adding features and functions to this tool in the months to come. It's all part of our effort to bring you innovative care that's focused on you.</li>
 								</ul>
+
+								<p>	We'll continue adding features and functions to this tool in the months to come. It's all part of our effort to bring you innovative care that's focused on you.</p>
+
+								<p class="well well-small well-blue">If you're looking for Methodist Careers account, please click here to be redirected to our careers site.</p>
 							</div>
 						</div>
 					</div>
