@@ -1,0 +1,22 @@
+@import "mlh/mlh";
+
+@import "lebonheur/bits";
+@import "lebonheur/sprite";
+@import "lebonheur/header";
+@import "lebonheur/nav";
+@import "lebonheur/footer";
+
+ body{
+	font-family: 'Cabin', sans-serif;
+	color: #444;
+}
+
+@media(max-width:767px){
+	
+ 	body{padding: 0px;}
+ 	
+ 	.container{
+ 		padding-left: 10px;padding-right: 10px;
+ 	}
+}
+ 

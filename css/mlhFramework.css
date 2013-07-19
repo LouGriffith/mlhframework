@@ -16,6 +16,10 @@
 *
 * Designed with care by @lougriffith
 */
+/* line 7, ../scss/mlh/_bits.scss */
+.movin-on-up {
+  margin-top: -10px; }
+
 /* line 1, ../scss/mlh/_typography.scss */
 .copyright {
   font-size: .8em; }
@@ -293,11 +297,32 @@ ul.legalLinks {
   .mlhGrouping .span4 {
     padding: 0px;
     margin: 0px; }
+  /* line 17, ../scss/mlh/_forms.scss */
+  .mlhGrouping h2 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding: 0;
+    margin: 0 0 .3em; }
+  /* line 24, ../scss/mlh/_forms.scss */
+  .mlhGrouping .desc {
+    font-size: .9em;
+    color: #828282; }
+  /* line 29, ../scss/mlh/_forms.scss */
+  .mlhGrouping .right-col {
+    padding: 10px 10px 10px 20px;
+    border-left: 1px solid #ccc; }
+  /* line 34, ../scss/mlh/_forms.scss */
+  .mlhGrouping.last {
+    margin-bottom: 30px; }
 
-/* line 18, ../scss/mlh/_forms.scss */
+/* line 39, ../scss/mlh/_forms.scss */
+.dollar {
+  margin-right: 10px; }
+
+/* line 43, ../scss/mlh/_forms.scss */
 fieldset {
   border: 1px solid #ddd;
-  padding: 1em 1.2em;
+  padding: 1em 1.2em 0;
   margin-top: 10px;
   margin-bottom: 20px;
   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
@@ -314,22 +339,29 @@ fieldset {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 );
   /* IE6-9 */ }
+  /* line 56, ../scss/mlh/_forms.scss */
+  fieldset.first {
+    margin-top: -10px; }
 
-/* line 33, ../scss/mlh/_forms.scss */
+/* line 62, ../scss/mlh/_forms.scss */
+.inputGroup.first {
+  margin-top: -10px; }
+
+/* line 67, ../scss/mlh/_forms.scss */
 .mlhInfo {
   padding-top: 10px; }
-  /* line 35, ../scss/mlh/_forms.scss */
+  /* line 69, ../scss/mlh/_forms.scss */
   .mlhInfo h3 {
     font-size: 1.3em;
     line-height: 1.2em; }
 
-/* line 42, ../scss/mlh/_forms.scss */
+/* line 76, ../scss/mlh/_forms.scss */
 .mlhInputs {
   border-left: 1px solid #ccc;
   padding: 5px 20px;
   margin: 10px 0px; }
 
-/* line 48, ../scss/mlh/_forms.scss */
+/* line 82, ../scss/mlh/_forms.scss */
 legend {
   margin: 0px;
   width: inherit;
@@ -342,52 +374,63 @@ legend {
   line-height: 1.2em;
   background: white; }
 
-/* line 61, ../scss/mlh/_forms.scss */
+/* line 95, ../scss/mlh/_forms.scss */
 legend + .control-group {
-  margin-top: 0px; }
+  margin-top: -5px; }
 
-/* line 65, ../scss/mlh/_forms.scss */
+/* line 99, ../scss/mlh/_forms.scss */
+.movin-on-up {
+  margin-top: -10px; }
+
+/* line 103, ../scss/mlh/_forms.scss */
 .mlhControls {
   margin-left: 10px; }
 
-/* line 69, ../scss/mlh/_forms.scss */
+/* line 107, ../scss/mlh/_forms.scss */
 .form-actions {
   margin-bottom: 10px; }
 
-/* line 73, ../scss/mlh/_forms.scss */
+/* line 111, ../scss/mlh/_forms.scss */
 .help-block {
-  color: #ddd;
-  display: none; }
+  font-size: .9em;
+  font-style: italic;
+  color: #999; }
 
-/* line 79, ../scss/mlh/_forms.scss */
-input[type="radio"],
-input[type="checkbox"] {
-  margin: 5px 10px 10px 0px; }
+/* line 117, ../scss/mlh/_forms.scss */
+.profile-status {
+  margin-top: -10px; }
 
 @media (max-width: 979px) {
-  /* line 85, ../scss/mlh/_forms.scss */
+  /* line 124, ../scss/mlh/_forms.scss */
   input[type="submit"],
   input[type="button"] {
     width: 100%;
     margin-bottom: 10px; }
 
-  /* line 90, ../scss/mlh/_forms.scss */
+  /* line 129, ../scss/mlh/_forms.scss */
   .myPass {
-    display: block; } }
+    display: block; }
+
+  /* line 135, ../scss/mlh/_forms.scss */
+  .mlhGrouping .right-col {
+    padding: 0px;
+    border-left: none; } }
 @media (max-width: 480px) {
-  /* line 97, ../scss/mlh/_forms.scss */
+  /* line 144, ../scss/mlh/_forms.scss */
   .mlhGrouping {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 5px;
     box-shadow: none;
     padding: 10px 10px; }
-
-  /* line 107, ../scss/mlh/_forms.scss */
-  .form-actions {
-    margin-bottom: 0px; } }
+    /* line 153, ../scss/mlh/_forms.scss */
+    .mlhGrouping .form-actions {
+      margin-bottom: 0px; }
+    /* line 157, ../scss/mlh/_forms.scss */
+    .mlhGrouping .right-col {
+      margin-top: 20px; } }
 /* line 13, ../scss/mlhFramework.scss */
 #page {
   background: -moz-linear-gradient(top, #c6e8f2 0%, rgba(255, 255, 255, 0.13) 58%, rgba(255, 255, 255, 0) 67%);
@@ -432,3 +475,13 @@ body {
   margin-top: 10px;
   border-top: 1px solid #ddd;
   padding-top: 20px; }
+
+@media (max-width: 767px) {
+  /* line 55, ../scss/mlhFramework.scss */
+  body {
+    padding: 0px; }
+
+  /* line 57, ../scss/mlhFramework.scss */
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; } }

@@ -1,0 +1,16 @@
+.headerBackground {
+	background: $lebon-blue;
+	background: -moz-linear-gradient(90deg, #003a71 0.2%, #0055a5 100%), #0055A5;
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0.002, #003a71), to(#0055a5)), #0055A5;
+	box-shadow: inset 0 2px 20px #013b73, 0 2px 5px #433c3c;
+	color: white;
+
+	.toolbar{
+		border: none;
+		font-size: 1.2em;
+
+		li a:hover{
+			background: darken($lebon-blue, 3%);
+		}
+	}
+}

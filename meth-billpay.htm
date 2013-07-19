@@ -1,0 +1,603 @@
+<!doctype html>
+<!-- MLH Framework v1.0
+	 Based on HTML5 Boilerplate & Twitter Bootstrap for Methodist Le Bonheur Healthcare -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+	
+		<!-- Basic Page Needs
+		================================================== -->
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title>myMLH - Bill Pay</title>
+			<meta name="description" content="">
+			
+		<!-- Mobile Specific Metas
+		================================================== -->
+		    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+			<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"  />
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="320">
+			
+			<!-- IE Fixes
+		================================================== -->
+			<!-- Based on Foundation & h5bp.com/d/head-Tips
+		
+			<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+			     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+			
+			<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+		
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+		
+			<!--[if (lt IE 9) & (!IEMobile)]>
+				<script src="js/lib/selectivizr.min.js"></script>
+			<![endif]-->
+		
+			<!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+			
+			<!-- IE 9 Pin Site -->
+			<meta name="application-name" content="Sample Title" />
+			<meta name="msapplication-tooltip" content="A description of what this site does." />
+		    
+		    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+			<meta http-equiv="cleartype" content="on">
+			
+		
+			<!-- Facebook Open Graph 
+		================================================== -->
+			<!-- Based on h5bp.com/d/head-Tips -->
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:image" content="" />
+			
+			<!-- CSS
+		================================================== -->
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+			<link rel="stylesheet" href="css/methodist.css">
+
+			<!-- Google Font -->
+			<link href="http://fonts.googleapis.com/css?family=Cabin:regular,500,bold&amp;v1" rel="stylesheet" type="text/css">	
+			
+			<!-- Favicons
+		================================================== -->
+			<link rel="shortcut icon" href="images/favicon.ico">
+			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+			
+			
+			<!-- Modernizr - www.modernizr.com/download/
+		================================================== -->		
+		  	<!-- Modernizr enables HTML5 elements & feature detects for optimal performance. -->
+		  	
+		  	<script src="js/lib/modernizr.min.js"></script>
+			
+		  	  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+	
+	</head>
+
+	<body data-spy="scroll">
+	
+		<div id="page">
+
+			<div class="headerBackground visible-desktop">
+				<header class="container">
+					<ul class="toolbar toolbar-blue nav nav-pills pull-right">
+						<li><a href="#">myMethodist Login</a></li>
+					</ul>
+
+					<ul class="toolbar toolbar-grey nav nav-pills pull-right">
+						<li><a href="#">Healthcare Professionals</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+
+					<ul class="toolbar nav toolbar-green nav-pills pull-right">
+						<li><a class="active" href="#">Contact</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">News &amp; Events</a></li>
+						<li><a href="#">Ways To Help</a></li>
+					</ul>
+				</header>
+			</div>
+			<!-- /end headerBackground -->
+
+			<div class="navBackground">
+				<div class="container">
+					<div class="navbar">
+				  		<div class="navbar-inner">
+
+					      	<div class="navbar-mobile hidden-desktop">
+								<div class="btn-toolbar pull-right">
+									<div class="btn-group">
+										<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+										<a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">
+											<i class="icon-th-list"></i>
+									    </a>
+									   
+									    <!-- .btn-navbar is used as the toggle for collapsed search content -->
+									    <a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".search-collapse">
+									    	<i class="icon-search"></i>
+									    </a>
+								    </div>
+								    <!-- /end mobile btn-group -->
+							    </div>
+							    <!-- /end btn-toolbar -->
+							      
+							    <!-- Be sure to leave the brand out there if you want it shown -->
+							    <a class="brand brand-meth visible-phone" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					 	  	</div>
+					 	  	<!-- /end navbar-mobile -->
+					 
+					      	<!-- Everything you want hidden at 940px or less, place within here -->
+					      	<div class="nav-collapse collapse">
+					        	<ul class="nav nav-main pull-left">
+					        		<li class="visible-desktop">
+					        			<a class="brand" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					        		</li>
+									<!-- /end logo -->
+
+									<li>
+					        			<a href="/locations/" class="locations">
+					        				<span class="title">Locations</span>
+					        				<span class="sub-title">Hospitals &amp; Clinics</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end locations -->
+					        		
+					        		<li>
+					        			<a href="/healthcare-services" class="services">
+					        				<span class="title">Our Services</span>
+					        				<span class="sub-title">Specialities &amp; Classes</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end our-services -->
+					        	</ul>
+					        	<!-- /end left nav-main -->
+
+					        	<ul class="nav nav-main pull-right">
+									<li>
+					        			<a href="/patients-guests" class="patients">
+					        				<span class="title">Patients &amp; Guests</span>
+					        				<span class="sub-title">Guide To Your Stay</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end locations -->
+					        		
+					        		<li>
+					        			<a href="/patients-guests/find-a-physician" class="find-doc">
+					        				<span class="title">Find A Doctor</span>
+					        				<span class="sub-title">Physcian Search</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end our-services -->
+
+					        		<form class="navbar-search pull-left visible-desktop" action="/mlhsearch/" method="get">
+				                      <input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									  <input class="searchButton" type="submit" alt="Search" value="Go">
+				                    </form>
+				                    <!-- /end nav-search -->
+
+					        	</ul>
+					        	<!-- /end right nav-main -->
+					      	</div>
+					      	<!-- /end main nav -->
+
+					      	<div class="search-collapse collapse hidden-desktop">
+					      		<form class="mobile-search" action="/mlhsearch/" method="get">
+							    	<input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									<input class="searchButton" type="submit" alt="Search" value="Go">
+							    </form>
+					            <!-- /end mobile-search -->
+			                </div>
+			                <!-- /end mobile search -->
+				 
+				    	</div>
+				  	</div>
+				</div>
+			</div>
+			<!-- /end navBackground -->
+
+			<div class="sectionHeaderBackground">
+		    	<div class="sectionHeader container">
+				    <div class="row">
+				        <div class="span12">
+				          	<div id="breadcrumbs" class="pull-left">
+				         		<ul>
+				         			<li>
+				         				<a href="/">Home</a>
+				         			</li>
+				         			<li>
+				         				<a href="/">myMethodist</a>
+				         			</li>
+				         			<li>Bill Pay</li>
+				         		</ul>
+					        </div>
+				          	<!-- /end breadcrubms -->
+				          	<a class="btn btn-nav sp-section-nav-btn pull-right hidden-desktop" data-toggle="collapse" data-target=".section-collapse">
+	            				<i class="icon-chevron-down"></i>
+	          				</a>
+				          	<a class="btn pull-right visible-desktop">
+				          		<i class="icon-off"></i>&nbsp;Logout
+				          	</a>
+				    	</div>
+					</div>
+				</div>
+				<!-- /end sectionHeader -->
+			</div>
+			<!-- /end sectionHeaderBackground -->
+
+			<div class="pageHeaderBackground">
+		    	<div class="pageHeader container">
+		    		<div class="section-collapse collapse hidden-desktop">
+			        	<ul class="nav nav-tabs nav-stacked section-nav">
+						  <li><a href="#"><i class="icon-off"></i>&nbsp; Log Out</a></li>
+						</ul>
+			        </div>
+			        <div class="pageTitle"></div>
+		    	</div>
+				<!-- /end pageHeader -->
+			</div>
+			<!-- /end pageHeaderBackground -->
+			
+			<div class="mainBackground">
+				<div class="container">
+					<div class="row">
+						<div class="span10 offset1">
+							<section id="patientPortalModule" class="mlhGrouping">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Paying For</h2>
+										<p class="desc">If you are paying on behalf of yourself, choose the top option.</p>
+										<p class="desc">If you are paying on behalf of someone else,e.g. parent or relative, choose the bottom option.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<fieldset id="profileCompletionTips" class="first">
+											<legend>I will be paying for</legend>
+
+											<label class="radio">
+											  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+											  Myself
+											</label>
+
+											<label class="radio">
+											  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+											  Someone Else
+											</label>
+										</fieldset>
+									</div>
+								</div>
+
+							</section>
+
+							<section id="patientPortalModule" class="mlhGrouping">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Methodist Healthcare Bill</h2>
+										<p class="desc">On your paper bill, locate the account number and enter it in the "Account Number" field.</p>
+										<p class="desc">For verification purposes, please also provide the date of birth and last four digits of the patient's social security number.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<fieldset id="profileCompletionTips" class="first">
+											<legend>Methodist Healthcare Bill Information</legend>
+
+											    <div class="control-group">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">Account Number</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="" class="">
+											      </div>
+											    </div>
+
+											    <div class="control-group">
+											      <!-- Patient's Date of Birth -->
+											      <label class="control-label"  for="username">Patient's Date of Birth</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="3/11/1973" class="">
+											      </div>
+											    </div>
+
+											    <div class="control-group">
+											      <!-- Last 4 of Patient's SSN -->
+											      <label class="control-label"  for="username">Last four digits of Patient's Social Secuity No.</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" maxlength="4" placeholder="3333" class="">
+											      </div>
+											    </div>
+
+										</fieldset>
+									</div>
+								</div>
+
+							</section>
+
+							<section id="patientPortalModule" class="mlhGrouping last">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Payment</h2>
+										<p class="desc">Please enter the amount you are paying, along with your billing information. *We do not store credit card information in our system for future transactions.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<fieldset id="profileCompletionTips" class="first">
+											<legend>Payment Amount</legend>
+
+											    <div class="control-group">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">Amount you are paying today</label>
+											      <div class="controls">
+											        <span class="dollar">$</span><input type="text" id="username" name="username" placeholder="50.00" class="">
+											      </div>
+											    </div>
+
+										</fieldset>
+
+										<fieldset id="profileCompletionTips">
+											<legend>Credit Card Information</legend>
+
+											    <div class="control-group">
+											      	<!-- Credit Card Information -->
+													<label class="control-label">Credit Card Account #</label>
+													<div class="controls">
+														<div class="row-fluid">
+															<div class="span8">
+																<input type="text" class="input-block-level" autocomplete="off" maxlength="12" pattern="\d{12}" title="Twelve Digits" required>
+																 <p class="help-block">Numbers only, no dashes or spaces</p>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												 <div class="control-group">
+											      	<!-- Credit Card Information -->
+													<label class="control-label">Expiration Date</label>
+													<div class="controls">
+														<div class="row-fluid">
+															<div class="span3">
+																<input type="text" class="input-block-level" autocomplete="off" maxlength="5" title="Expiration Date" placeholder="" required>
+															</div>
+															<div class="span9">
+																<p class="help-block">e.g 12/16</p>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="control-group">
+											      	<!-- CID -->
+													<label class="control-label">CVV / CID</label>
+													<div class="controls">
+														<div class="row-fluid">
+															<div class="span3">
+																<input type="text" class="input-block-level" autocomplete="off" maxlength="3" pattern="\d{3}" title="Three digits at back of your card" required>
+															</div>
+															<div class="span9">																<p class="help-block">The security code on your card.</p>
+															</div>
+														</div>
+													</div>
+												</div>
+
+										</fieldset>
+
+										<fieldset id="profileCompletionTips" class="first">
+											<legend>Address On Your Credit Card Statement</legend>
+
+											    <div class="control-group">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">Street Address</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="" class="span11">
+											      </div>
+											    </div>
+
+											    <div class="control-group">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">Apartment No. / Suite No.</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="" class="span11">
+											      </div>
+											    </div>
+
+											    <div class="row-fluid">
+
+											    <div class="control-group span5">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">City</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="" class="span12">
+											      </div>
+											    </div>
+
+											    <div class="control-group span3">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">State</label>
+											      <div class="controls">
+														<select name="billingAddress.usstate" id="billingState" class="span12">
+															<option value="" selected="selected"></option>
+															<option value="AL">AL</option>
+															<option value="AK">AK</option>
+															<option value="AZ">AZ</option>
+															<option value="AR">AR</option>
+															<option value="CA">CA</option>
+															<option value="CO">CO</option>
+															<option value="CT">CT</option>
+															<option value="DE">DE</option>
+															<option value="DC">DC</option>
+															<option value="FL">FL</option>
+															<option value="GA">GA</option>
+															<option value="HI">HI</option>
+															<option value="ID">ID</option>
+															<option value="IL">IL</option>
+															<option value="IN">IN</option>
+															<option value="IA">IA</option>
+															<option value="KS">KS</option>
+															<option value="KY">KY</option>
+															<option value="LA">LA</option>
+															<option value="ME">ME</option>
+															<option value="MD">MD</option>
+															<option value="MA">MA</option>
+															<option value="MI">MI</option>
+															<option value="MN">MN</option>
+															<option value="MS">MS</option>
+															<option value="MO">MO</option>
+															<option value="MT">MT</option>
+															<option value="NE">NE</option>
+															<option value="NV">NV</option>
+															<option value="NH">NH</option>
+															<option value="NJ">NJ</option>
+															<option value="NM">NM</option>
+															<option value="NY">NY</option>
+															<option value="NC">NC</option>
+															<option value="ND">ND</option>
+															<option value="OH">OH</option>
+															<option value="OK">OK</option>
+															<option value="OR">OR</option>
+															<option value="PA">PA</option>
+															<option value="RI">RI</option>
+															<option value="SC">SC</option>
+															<option value="SD">SD</option>
+															<option value="TN">TN</option>
+															<option value="TX">TX</option>
+															<option value="UT">UT</option>
+															<option value="VT">VT</option>
+															<option value="VA">VA</option>
+															<option value="WA">WA</option>
+															<option value="WV">WV</option>
+															<option value="WI">WI</option>
+															<option value="WY">WY</option>
+														</select>											      
+													</div>
+											    </div>
+
+											    <div class="control-group span3">
+											      <!-- Account Number -->
+											      <label class="control-label"  for="username">Zipcode</label>
+											      <div class="controls">
+											        <input type="text" id="username" name="username" placeholder="" class="span12">
+											      </div>
+											    </div>
+
+										</fieldset>
+
+										<input class="btn btn-success" type="submit" value="Pay Bill">
+
+									</div>
+								</div>
+
+							</section>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- /end mainBackground -->
+
+			<div class="footerBackground">
+				
+				<div class="footer-arc"></div>
+
+				<div class="container">
+					<div class="footerTop row">
+						<div class="span6">
+							<h4 class="footerBrand"><i class="logoBeTreatedWell">Methodist Le Bonheur Healthcare</i></h4>
+						</div>
+					</div>
+
+					<div class="footerBottom row">
+						<div class="span3">
+							<div class="footerAddress">
+								<div class="vcard">
+									<p class="tel">(901) 516-7000</p>
+									<p class="adr">
+										<span class="street-address">1211 Union Avenue</span>
+										<span class="region">Memphis, Tennessee</span>
+										<span class="postal-code">38104</span>
+									</p>
+								</div>
+							</div>
+
+							<ul class="nav nav-pills contactLinks ">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Newsroom</a></li>
+							</ul>
+						</div>
+
+						<div class="span4">
+							<p class="footerDesc">Methodist Healthcare is an integrated health care delivery system, dedicated to the art of healing through our faith-based commitment to minister to the whole person.</p>
+						</div>
+
+						<div class="span5">
+
+							<div class="footerSocial row">
+								<ul class="socialIcons pull-right">
+									<li><a href="#"><i class="icoSocial icoFacebook">Facebook</i></a></li>
+									<li><a href="#"><i class="icoSocial icoTwitter">Twitter</i></a></li>
+									<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+								</ul>
+							</div>
+
+							<div class="footerLegal row">
+								<ul class="nav nav-pills legalLinks pull-right">
+									<li><a href="#">Our Centers</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Disclaimer</a></li>
+									<li><a href="#">Legal</a></li>
+								</ul>
+
+								<p class="copyright small pull-right">&copy; 2013 Methodist Le Bonheur Healthcare. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /end footerBackground -->
+			
+		</div>
+		<!-- /end Page -->
+	
+	
+		<!-- JavaScript
+		================================================== -->
+		  	<!-- JavaScript at the bottom for fast page loading -->
+		
+		 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		 	<script>window.jQuery || document.write('<script src="js/lib/jquery.min.js"><\/script>')</script>
+	
+			<!-- Call to Twitter Bootsrap -->
+			<script src="js/lib/bootstrap.min.js"></script>
+			
+			<!-- Call to Custom JS -->
+			<script src="js/application.js"></script>
+
+			
+			<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);"> <!-- Mobile Safari URL shift -->
+			<!-- /end scripts -->
+			
+		<!-- End Document
+		================================================== -->	
+	
+	</body>
+	<!-- /end body -->
+	
+</html>
+<!-- /end html -->

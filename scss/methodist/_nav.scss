@@ -1,3 +1,51 @@
+.btn-toolbar{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.btn.btn-nav {
+	padding: 8px 14px;
+}
+
+.brand.brand-meth {
+	text-indent: -9999px;
+	width: 185px;
+	height: 48px;
+	padding: 0px;
+	margin: 0px;
+
+	i{
+		margin-left: -5px;
+	}
+}
+
+.aside-nav{
+	width: 200px;
+	margin-left: 10px;
+
+	li{
+
+	}
+
+	li > a{
+		color: $link-blue;
+		font-size: 1.1em;
+		padding: 1em .9em;
+		font-weight: bold;
+	}
+}
+
+.nav-pills>.active>a, 
+.nav-pills>.active>a:hover, 
+.nav-pills>.active>a:focus {
+	background: $meth-blue;
+}
+
+.aside-nav.affix{
+	background: white;
+	top: 20px;
+}
+
 .navbar{
 	margin-bottom: 10px;
 
@@ -35,8 +83,6 @@
 			color: $light-grey;
 		}
 	}
-
-
 
 	.nav-main{
 		padding: 5px;
@@ -120,7 +166,5 @@ form.mobile-search {
 		}
 		
 	}
-
-
 
 }

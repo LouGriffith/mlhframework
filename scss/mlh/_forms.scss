@@ -13,11 +13,36 @@
 		padding: 0px;
 		margin: 0px;
 	}
+
+	h2{
+		font-size: 1.3em;
+		line-height: 1.3em;
+		padding: 0;
+		margin: 0 0 .3em;
+	}
+
+	.desc{
+		font-size: .9em;
+		color: $grey;
+	}
+
+	.right-col{
+		padding: 10px 10px 10px 20px;
+		border-left: 1px solid #ccc;
+	}
+
+	&.last{
+		margin-bottom: 30px;
+	}
+}
+
+.dollar{
+	margin-right: 10px;
 }
 
 fieldset{
 	border: 1px solid #ddd;
-	padding: 1em 1.2em;
+	padding: 1em 1.2em 0;
 	margin-top: 10px;
 	margin-bottom: 20px;
 	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 33%, rgba(255,255,255,0.13) 42%, rgba(247,247,247,1) 100%); /* FF3.6+ */
@@ -28,6 +53,15 @@ fieldset{
 	background: linear-gradient(to bottom,  rgba(255,255,255,0) 33%,rgba(255,255,255,0.13) 42%,rgba(247,247,247,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
 
+	&.first{
+		margin-top: -10px;
+	}
+}
+
+.inputGroup{
+	&.first{
+		margin-top: -10px;
+	}
 }
 
 .mlhInfo{
@@ -59,7 +93,7 @@ legend{
 }
 
 legend+.control-group {
-	margin-top: 0px;
+	margin-top: -5px;
 }
 
 .mlhControls{
@@ -71,14 +105,15 @@ legend+.control-group {
 }
 
 .help-block{
-	color: #ddd;
-	display: none;
+	font-size: .9em;
+	font-style: italic;
+	color: #999;
 }
 
-input[type="radio"], 
-input[type="checkbox"] {
-	margin: 5px 10px 10px 0px;
+.profile-status{
+	margin-top: -10px;
 }
+
 
 @media (max-width: 979px) {
 	input[type="submit"],
@@ -90,21 +125,34 @@ input[type="checkbox"] {
 	.myPass{
 		display: block;
 	}
+
+	.mlhGrouping{
+
+		.right-col{
+			padding: 0px;
+			border-left: none;
+		}
+	}
 }
 
 @media (max-width: 480px) {
 	
 	.mlhGrouping{
-		margin-left: -10px;
-		margin-right: -10px;
+		margin-left: 0px;
+		margin-right: 0px;
 		margin-top: 10px;
 		margin-bottom: 30px;
 		border-radius: 5px;
 		box-shadow: none;
 		padding: 10px 10px;
-	}
 
-	.form-actions{
-		margin-bottom: 0px;
+		.form-actions{
+			margin-bottom: 0px;
+		}
+
+		.right-col{
+			margin-top: 20px;
+		}
 	}
+	
 }

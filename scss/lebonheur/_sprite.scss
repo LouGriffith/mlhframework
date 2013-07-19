@@ -1,0 +1,75 @@
+$methodist-layout: smart;
+@import "../img/lebonheur/*.png";
+
+.socialIcons{
+	list-style: none;
+	margin-top: 10px;
+
+	li{
+		display: inline-block;
+	}
+
+	li>a{
+		text-indent: -9999px;
+	}
+
+}
+
+.icoSocial{
+	display: block;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+
+.logoLeBonHeader{
+	@include lebonheur-sprite(logo_LeBonHeader);
+	margin: 0px;
+	width: 230px;
+	height: 66px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-indent: -9999px;
+	cursor: pointer;
+	display: block;
+}
+
+.logoLeBonFooter{
+	@include lebonheur-sprite(logo_LeBonFooter);
+	margin: 0px;
+	width: 160px;
+	height: 46px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.badgeBest{
+	@include lebonheur-sprite(badge_Best);
+	margin: 0px;
+	width: 109px;
+	height: 122px;
+	text-indent: -9999px;
+	display: block;
+}
+
+.icoFacebook{
+	@include socialIcon(darken($lebon-orange, 20%), $facebook);
+	@include lebonheur-sprite(ico_Facebook);
+}
+
+.icoTwitter{
+	@include socialIcon(darken($lebon-orange, 20%), $twitter);
+	@include lebonheur-sprite(ico_Twitter);
+}
+
+.icoYouTube{
+	@include socialIcon(darken($lebon-orange, 20%), $youtube);
+	@include lebonheur-sprite(ico_YouTube);
+}
+
+.icoPinterest{
+	@include socialIcon(darken($lebon-orange, 20%), $pinterest);
+	@include lebonheur-sprite(ico_Pinterest);
+}

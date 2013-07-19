@@ -1,0 +1,550 @@
+<!doctype html>
+<!-- MLH Framework v1.0
+	 Based on HTML5 Boilerplate & Twitter Bootstrap for Methodist Le Bonheur Healthcare -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+	
+		<!-- Basic Page Needs
+		================================================== -->
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title></title>
+			<meta name="description" content="">
+			
+		<!-- Mobile Specific Metas
+		================================================== -->
+		    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+			<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"  />
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="320">
+			
+			<!-- IE Fixes
+		================================================== -->
+			<!-- Based on Foundation & h5bp.com/d/head-Tips
+		
+			<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+			     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+			
+			<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+		
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+		
+			<!--[if (lt IE 9) & (!IEMobile)]>
+				<script src="js/lib/selectivizr.min.js"></script>
+			<![endif]-->
+		
+			<!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+			
+			<!-- IE 9 Pin Site -->
+			<meta name="application-name" content="Sample Title" />
+			<meta name="msapplication-tooltip" content="A description of what this site does." />
+		    
+		    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+			<meta http-equiv="cleartype" content="on">
+			
+		
+			<!-- Facebook Open Graph 
+		================================================== -->
+			<!-- Based on h5bp.com/d/head-Tips -->
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:image" content="" />
+			
+			<!-- CSS
+		================================================== -->
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+			<link rel="stylesheet" href="css/lebonheur.css">
+
+			<!-- Google Font -->
+			<link href="http://fonts.googleapis.com/css?family=Cabin:regular,500,bold&amp;v1" rel="stylesheet" type="text/css">	
+			
+			<!-- Favicons
+		================================================== -->
+			<link rel="shortcut icon" href="images/favicon.ico">
+			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+			
+			
+			<!-- Modernizr - www.modernizr.com/download/
+		================================================== -->		
+		  	<!-- Modernizr enables HTML5 elements & feature detects for optimal performance. -->
+		  	
+		  	<script src="js/lib/modernizr.min.js"></script>
+			
+		  	  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+	
+	</head>
+
+	<body data-spy="scroll">
+	
+		<div id="page">
+
+			<div class="headerBackground visible-desktop">
+				<header class="container">
+					<div class="row">
+						<div id="header-left" class="span4 visible-desktop">
+							<a href="http://www.lebonheur.org/"><h1 class="logoLeBonHeader">Le Bonheur Healthcare</h1></a>
+						</div>
+						<!-- /end header-left -->
+
+						<div id="header-right" class="span8">
+							<ul class="toolbar toolbar-blue nav nav-pills pull-right">
+								<li><a href="/about-le-bonheur/contact-us">Contact Us</a></li>
+								<li><a href="/your-visit">Locations</a></li>
+								<li><a href="/providers">For Providers</a></li>
+								<li><a href="/newsroom">News &amp; Events</a></li>
+								<li><a href="/research-and-education">Research &amp; Education</a></li>
+								<li><a href="/careers">Careers</a></li>
+							</ul>
+
+							<div class="pull-right">
+								
+								<div class="input-append pull-left">
+								  <form class="searchForm" action="/mlhsearch/" method="get">
+								  	<input class="span2" id="basic_search_query" name="q" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search':this.value;" type="text" value="Search">
+								  	<button class="btn" type="submit" alt="Search" value="Search"><i class="icon-search"></i></button>
+								  </form>
+								</div>
+								
+								<a class="btn btn-success pull-right" href="https://secure.lebonheur.org/apps/mymlh/login/">Login</a>
+									
+							</div>
+						</div>
+						<!-- /end header-right -->
+					<div>
+				</header>
+			</div>
+			<!-- /end headerBackground -->
+
+			<div class="navBackground">
+			
+				<div id="navRibbon"></div>
+				<div id="nav" class="visible-desktop container">
+				
+					<!-- Desktop Nav -->
+					<div class="navbar navbar-inverse visible-desktop">
+					  <div class="navbar-inner navbar-desktop">
+					    <div class="container">
+					 		<ul class="nav nav-collapse collapse">
+					 			<li><a href="/our-services/">Services &amp; Specialities</a></li>
+					 			<li><a href="/find-a-doctor/">Find a Doctor</a></li>
+					 			<li><a href="/your-visit/">Your Visit</a></li>
+					 			<li><a href="/ways-to-help/">Ways To Help</a></li>
+					 			<li><a href="/kids-health-wellness/">Kids Health &amp; Wellness</a></li>
+					 			<li><a href="/about-le-bonheur/">About Us</a></li>
+					 		</ul>
+					 	</div>
+					 	<div class="thread"></div>
+					 	
+					  </div>
+					  <!-- /end navbar-inner -->
+					</div>
+					<!-- /end navbar -->					
+
+					</div>
+					<!-- /end nav -->
+					
+					<!-- Mobile Nav -->
+					<div class="navbar navbar-inverse hidden-desktop nav-collapse collapse">
+					  <div class="container navbar-mobile">
+					    <div class="well wellNav">
+					 		<ul class="nav">
+					 			<li><a href="/our-services/">Services &amp; Specialities</a></li>
+					 			<li><a href="/find-a-doctor/">Find a Doctor</a></li>
+					 			<li><a href="/your-visit/">Your Visit</a></li>
+					 			<li><a href="/ways-to-help/">Ways To Help</a></li>
+					 			<li><a href="/kids-health-wellness/">Kids Health &amp; Wellness</a></li>
+					 			<li><a href="/about-le-bonheur/">About Us</a></li>
+					 			<li><a href="/providers">For Providers</a></li>
+					 		</ul>
+					 		
+					 	</div>
+					  </div>
+					  <!-- /end navbar-inner -->
+					</div>
+					<!-- /end navbar -->
+					
+					<div class="searchBar hidden-desktop search-collapse collapse">
+						<div class="container navbar-mobile">
+							<div class="well wellSearch">
+							<form class="searchForm" action="/mlhsearch/" method="get">
+							<div class="input-append pull-left">
+							  <input id="basic_search_query" name="q" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Search':this.value;" type="text" value="Search">
+							  <button class="btn" type="submit" alt="Search" value="Search"><i class="icon-search"></i></button>
+							</div>
+							</form>
+							</div>
+						</div>
+					</div>
+
+					<div class="thread background visible-desktop"></div>
+				
+			</div>
+
+			<div class="heroBackground">
+				<div class="container">
+					<div id="myCarousel" class="carousel slide">
+					  <ol class="carousel-indicators">
+					    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#myCarousel" data-slide-to="1"></li>
+					    <li data-target="#myCarousel" data-slide-to="2"></li>
+					  </ol>
+					  <!-- Carousel items -->
+					  <div class="carousel-inner">
+					    <div class="active item">
+					    	<img src="http://placehold.it/1170x500">
+					    </div>
+					    <div class="item">
+					    	<img src="http://placehold.it/1170x500">
+					    </div>
+					    <div class="item">
+					    	<img src="http://placehold.it/1170x500">
+					    </div>
+					  </div>
+					  <!-- Carousel nav -->
+					  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+					  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+					</div>
+					<!-- /end carousel -->
+				</div>
+			</div>
+			<!-- /end heroBackground -->
+
+			<div class="mainBackground">
+				<div class="container">
+					<div class="row">
+						<div class="span8">
+							<div class="row">
+								<div class="span4">
+									<div class="widget">
+										<div class="widgetContent">
+											<h3 class="widgetTitle">Welcome Guide</h3>
+											</p>Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="span4">
+									<div class="widget">
+										<div class="widgetContent">
+											<h3 class="widgetTitle">ER Wait Times</h3>
+											<h4 class="erTime">1 hour, 33 minutes</h4>
+											<span class="erLocation">Germantown</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="span8">
+									<div class="widget storyWidget">
+										<h3 class="widgetTitle">Latest News</h3>
+										<ul class="storyList">
+										   <li>
+										   		<div class="storyInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+											   		</h3>
+											   		<span class="storyTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, vel maxime dolor nihil accusamus vitae voluptas et corporis eligendi earum aperiam deserunt at! Voluptatem, cumque, quibusdam, veritatis molestiae earum velit necessitatibus quis dolorum vitae sed minus nihil facilis nulla ad.</p>
+											   		</span>
+											   	</div>
+										   </li>
+										   <li>
+										   		<div class="storyInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+											   		</h3>
+											   		<span class="storyTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa dolores quis corrupti eos labore modi vitae totam magni possimus mollitia.</p>
+											   		</span>
+											   	</div>
+										   </li>
+										   <li>
+										   		<div class="storyInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+											   		</h3>
+											   		<span class="storyTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, a, veritatis, hic possimus qui unde nesciunt itaque numquam minus vitae eius distinctio deserunt earum maxime harum repellat blanditiis architecto deleniti.</p>
+											   		</span>
+											   	</div>
+										   </li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="span8">
+									<div class="widget blogWidget">
+										<h3 class="widgetTitle">Latest from the Blog</h3>
+										
+										<div class="row-fluid">
+											<div class="span7">
+										   		<div class="blogFeature">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+											   		</h3>
+											   		<span class="blogTeaser">
+											   			<p>Ipsum dolor sit amet, consectetur adipisicing elit. Odio, porro, at, totam cumque deserunt illum eveniet aliquam dolorem ipsa veritatis nostrum aperiam similique velit. Iste, qui, quam, veniam, porro inventore quae rem at explicabo distinctio odio quasi incidunt saepe architecto ratione suscipit hic molestias culpa fuga nisi minus dolores officia blanditiis labore sed pariatur. </p>
+											   		</span>
+											   	</div>
+											</div>
+											
+											<div class="span5 blogLinks">
+												<ul class="blogList">
+												   <li>
+												   		<div class="blogLink">
+													   		<h3>
+													   			<a href="#">Lorem ipsum dolor, consectetuer adipiscing elit.</a>
+													   		</h3>
+													   	</div>
+												   </li>
+
+												   <li>
+												   		<div class="blogLink">
+													   		<h3>
+													   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+													   		</h3>
+													   	</div>
+												   </li>
+
+												   <li>
+												   		<div class="blogLink">
+													   		<h3>
+													   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+													   		</h3>
+													   	</div>
+												   </li>
+												</ul>
+											</div>
+            							</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /end mainContent -->
+
+						<div class="span4">
+							<div class="row">
+								<div class="span4">
+									<div class="widget">
+										<div class="widgetContent">
+											<h3 class="widgetTitle">Connect With Us</h3>
+											<ul class="socialIcons pull-right">
+												<li><a href="#"><i class="icoSocial icoFacebook">Facebook</i></a></li>
+												<li><a href="#"><i class="icoSocial icoTwitter">Twitter</i></a></li>
+												<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+												<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+												<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>								
+
+								<div class="span4">
+									<div class="widget eventWidget">
+									<h3 class="widgetTitle">Latest Events</h3>
+										<ul class="eventList">
+										   <li>
+										   		<div class="eventDisplay">
+											   		<span class="eventDate">
+														<span class="eventMonth">Jun</span>
+														<span class="eventDay">8</span>
+													</span>
+												</div>
+
+										   		<div class="eventInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, reiciendis!</a>
+											   		</h3>
+											   		<span class="eventTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+											   		</span>
+											   	</div>
+										   </li>
+										   <li>
+										   		<div class="eventDisplay">
+											   		<span class="eventDate">
+														<span class="eventMonth">Jun</span>
+														<span class="eventDay">8</span>
+													</span>
+												</div>
+
+										   		<div class="eventInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a>
+											   		</h3>
+											   		<span class="eventTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. </p>
+											   		</span>
+											   	</div>
+										   </li>
+										   <li>
+										   		<div class="eventDisplay">
+											   		<span class="eventDate">
+														<span class="eventMonth">Jun</span>
+														<span class="eventDay">8</span>
+													</span>
+												</div>
+
+										   		<div class="eventInfo">
+											   		<h3>
+											   			<a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, eius.</a>
+											   		</h3>
+											   		<span class="eventTeaser">
+											   			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+											   		</span>
+											   	</div>
+										   	</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /end mainAside -->
+					</div>
+				</div>
+			</div>
+			<!-- /end mainBackground -->
+
+			<div class="footerBackground">
+				<div class="footerThread"></div>
+				<div class="container">
+					<div class="row">
+						<div class="megaFooter">
+							<ul class="nav nav-list nav-mega span3 visible-desktop">
+								<li><a href="/your-visit">Parents</a></li>
+									<ul>
+										<li><a href="/your-visit/getting-to-the-main-hospital/driving-and-parking-directions/">Directions</a></li>
+										<li><a href="/your-visit/search-for-a-le-bonheur-physician/">Find a Specialist</a></li>
+										<li><a href="/login">Request an Appointment</a></li>
+									</ul>
+							</ul>
+							
+							<ul class="nav nav-list nav-mega span3 visible-desktop">
+								<li><a href="/for-providers">Physicians</a></li>
+									<ul>
+										<li><a href="/for-physicians/making-a-referral/">Refer a Patient</a></li>
+										<li><a href="/your-visit/search-for-a-le-bonheur-physician">Find a Specialist</a></li>
+									</ul>
+							</ul>
+							
+							<ul class="nav nav-list nav-mega span3 visible-desktop">
+								<li><a href="/ways-to-help">Donors</a></li>
+									<ul>
+										<li><a href="/ways-to-help/signature-events/">Attend an Event</a></li>
+										<li><a href="/ways-to-help/our-art-collection/">Sponsor an Art Piece</a></li>
+										<li><a href="/ways-to-help/gift-planning/">Learn about Gift Planning</a></li>
+									</ul>
+							</ul>
+							
+							<ul class="nav nav-list nav-mega hidden-desktop span3">
+								<li><a href="/about-le-bonheur/contact-us">Contact Us</a></li>
+								<li><a href="/your-visit">Locations</a></li>
+								<li><a href="/providers">For Providers</a></li>
+							</ul>
+							
+							<ul class="nav nav-list nav-mega hidden-desktop span3">
+								<li><a href="/newsroom">News &amp; Events</a></li>
+								<li><a href="/research-and-education">Research &amp; Education</a></li>
+								<li><a href="/careers">Careers</a></li>
+							</ul>
+								
+							<div class="pull-right hidden-phone">
+								<a href="/best">
+								<div class="badgeBest">
+									Best Children's Hospital
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-top row">
+						
+						<div class="footer-right pull-right">
+							<div class="row">
+								 <a href="http://www.lebonheur.org/">
+								<div class="span2 brand brandFooter pull-left">
+									<i class="logoLeBonFooter pull-right">Le Bonheur</i>
+								</div>
+								</a>
+								<div class="span3 socialLinks pull-right">
+									<span class="footerMotto hidden-phone">Where Every Child Matters</span>
+									<ul class="pull-right socialIcons">
+										<li><a class="icoSocial icoTwitter" href="http://www.twitter.com/lebonheurchild">Twitter</a></li>
+									    <li><a class="icoSocial icoYouTube" href="http://www.youtube.com/lebonheurchildrens">Youtube</a></li>
+									    <li><a class="icoSocial icoFacebook" href="http://www.facebook.com/lebonheurchildrens">Facebook</a></li>
+									    <li><a class="icoSocial icoPinterest" href="http://www.pinterest.com/lebonheurchild">Pinterest</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- /end span3 -->
+						
+						<div class="span3">
+							<span class="footer-address">848 Adams Ave<br>Memphis, Tennessee 38103</span>
+							<span class="footer-phone"><a href="tel:901.287.5437">(901) 287-KIDS</a></span>
+						</div>
+						<!-- /end span3 -->
+						
+						<div class="span3 visible-desktop">
+							<span class="footer-desc">
+								Le Bonheur Children's Hospital is one of the nation's best children's hospitals, featuring expert physicians and staff, state-of-the-art technology and family-friendly resources.
+							</span>
+						</div>
+						<!-- /end span3 -->
+					</div>
+
+					<div class="footer-bottom row">
+						<span class="footer-copyright span12">Copyright 2013. All Rights Reserved.</span>
+					</div>
+				</div>
+			</div>
+			<!-- /end footerBackground -->
+			
+		</div>
+		<!-- /end Page -->
+	
+	
+		<!-- JavaScript
+		================================================== -->
+		  	<!-- JavaScript at the bottom for fast page loading -->
+		
+		 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		 	<script>window.jQuery || document.write('<script src="js/lib/jquery.min.js"><\/script>')</script>
+	
+			<!-- Call to Twitter Bootsrap -->
+			<script src="js/lib/bootstrap.min.js"></script>
+			
+			<!-- Call to Custom JS -->
+			<script src="js/application.js"></script>
+
+			
+			<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);"> <!-- Mobile Safari URL shift -->
+			<!-- /end scripts -->
+			
+		<!-- End Document
+		================================================== -->	
+	
+	</body>
+	<!-- /end body -->
+	
+</html>
+<!-- /end html -->

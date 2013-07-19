@@ -1,0 +1,492 @@
+<!doctype html>
+<!-- MLH Framework v1.0
+	 Based on HTML5 Boilerplate & Twitter Bootstrap for Methodist Le Bonheur Healthcare -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+	<head>
+	
+		<!-- Basic Page Needs
+		================================================== -->
+			<meta charset="utf-8" />
+			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title>myMLH - Home</title>
+			<meta name="description" content="">
+			
+		<!-- Mobile Specific Metas
+		================================================== -->
+		    <!-- Mobile viewport optimized: h5bp.com/viewport -->
+			<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"  />
+			<meta name="HandheldFriendly" content="True">
+			<meta name="MobileOptimized" content="320">
+			
+			<!-- IE Fixes
+		================================================== -->
+			<!-- Based on Foundation & h5bp.com/d/head-Tips
+		
+			<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+			     chromium.org/developers/how-tos/chrome-frame-getting-started -->
+			
+			<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+		
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+		
+			<!--[if (lt IE 9) & (!IEMobile)]>
+				<script src="js/lib/selectivizr.min.js"></script>
+			<![endif]-->
+		
+			<!--[if lt IE 9]>
+				<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<![endif]-->
+			
+			<!--[if lt IE 9]>
+				<link rel="stylesheet" href="stylesheets/ie.css">
+			<![endif]-->
+			
+			<!-- IE 9 Pin Site -->
+			<meta name="application-name" content="Sample Title" />
+			<meta name="msapplication-tooltip" content="A description of what this site does." />
+		    
+		    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+			<meta http-equiv="cleartype" content="on">
+			
+		
+			<!-- Facebook Open Graph 
+		================================================== -->
+			<!-- Based on h5bp.com/d/head-Tips -->
+			<meta property="og:title" content="" />
+			<meta property="og:description" content="" />
+			<meta property="og:image" content="" />
+			
+			<!-- CSS
+		================================================== -->
+			<link rel="stylesheet" href="css/bootstrap.min.css">
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+			<link rel="stylesheet" href="css/methodist.css">
+
+			<!-- Google Font -->
+			<link href="http://fonts.googleapis.com/css?family=Cabin:regular,500,bold&amp;v1" rel="stylesheet" type="text/css">	
+			
+			<!-- Favicons
+		================================================== -->
+			<link rel="shortcut icon" href="images/favicon.ico">
+			<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+			<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+			<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+			
+			
+			<!-- Modernizr - www.modernizr.com/download/
+		================================================== -->		
+		  	<!-- Modernizr enables HTML5 elements & feature detects for optimal performance. -->
+		  	
+		  	<script src="js/lib/modernizr.min.js"></script>
+			
+		  	  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+	
+	</head>
+
+	<body data-spy="scroll">
+	
+		<div id="page">
+
+			<div class="headerBackground visible-desktop">
+				<header class="container">
+					<ul class="toolbar toolbar-blue nav nav-pills pull-right">
+						<li><a href="#">myMethodist Login</a></li>
+					</ul>
+
+					<ul class="toolbar toolbar-grey nav nav-pills pull-right">
+						<li><a href="#">Healthcare Professionals</a></li>
+						<li><a href="#">Education</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+
+					<ul class="toolbar nav toolbar-green nav-pills pull-right">
+						<li><a class="active" href="#">Contact</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">News &amp; Events</a></li>
+						<li><a href="#">Ways To Help</a></li>
+					</ul>
+				</header>
+			</div>
+			<!-- /end headerBackground -->
+
+			<div class="navBackground">
+				<div class="container">
+					<div class="navbar">
+				  		<div class="navbar-inner">
+
+					      	<div class="navbar-mobile hidden-desktop">
+								<div class="btn-toolbar pull-right">
+									<div class="btn-group">
+										<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+										<a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">
+											<i class="icon-th-list"></i>
+									    </a>
+									   
+									    <!-- .btn-navbar is used as the toggle for collapsed search content -->
+									    <a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".search-collapse">
+									    	<i class="icon-search"></i>
+									    </a>
+								    </div>
+								    <!-- /end mobile btn-group -->
+							    </div>
+							    <!-- /end btn-toolbar -->
+							      
+							    <!-- Be sure to leave the brand out there if you want it shown -->
+							    <a class="brand brand-meth visible-phone" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					 	  	</div>
+					 	  	<!-- /end navbar-mobile -->
+					 
+					      	<!-- Everything you want hidden at 940px or less, place within here -->
+					      	<div class="nav-collapse collapse">
+					        	<ul class="nav nav-main pull-left">
+					        		<li class="visible-desktop">
+					        			<a class="brand" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					        		</li>
+									<!-- /end logo -->
+
+									<li>
+					        			<a href="/locations/" class="locations">
+					        				<span class="title">Locations</span>
+					        				<span class="sub-title">Hospitals &amp; Clinics</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end locations -->
+					        		
+					        		<li>
+					        			<a href="/healthcare-services" class="services">
+					        				<span class="title">Our Services</span>
+					        				<span class="sub-title">Specialities &amp; Classes</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end our-services -->
+					        	</ul>
+					        	<!-- /end left nav-main -->
+
+					        	<ul class="nav nav-main pull-right">
+									<li>
+					        			<a href="/patients-guests" class="patients">
+					        				<span class="title">Patients &amp; Guests</span>
+					        				<span class="sub-title">Guide To Your Stay</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end locations -->
+					        		
+					        		<li>
+					        			<a href="/patients-guests/find-a-physician" class="find-doc">
+					        				<span class="title">Find A Doctor</span>
+					        				<span class="sub-title">Physcian Search</span>
+					        			</a>
+					        		</li>
+					        		<!-- /end our-services -->
+
+					        		<form class="navbar-search pull-left visible-desktop" action="/mlhsearch/" method="get">
+				                      <input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									  <input class="searchButton" type="submit" alt="Search" value="Go">
+				                    </form>
+				                    <!-- /end nav-search -->
+
+					        	</ul>
+					        	<!-- /end right nav-main -->
+					      	</div>
+					      	<!-- /end main nav -->
+
+					      	<div class="search-collapse collapse hidden-desktop">
+					      		<form class="mobile-search" action="/mlhsearch/" method="get">
+							    	<input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									<input class="searchButton" type="submit" alt="Search" value="Go">
+							    </form>
+					            <!-- /end mobile-search -->
+			                </div>
+			                <!-- /end mobile search -->
+				 
+				    	</div>
+				  	</div>
+				</div>
+			</div>
+			<!-- /end navBackground -->
+
+			<div class="sectionHeaderBackground">
+		    	<div class="sectionHeader container">
+				    <div class="row">
+				        <div class="span12">
+				          	<div id="breadcrumbs" class="pull-left">
+				         		<ul>
+				         			<li>
+				         				<a href="/">Home</a>
+				         			</li>
+				         			<li>
+				         				<a href="/">myMethodist</a>
+				         			</li>
+				         			<li>Dashboard</li>
+				         		</ul>
+					        </div>
+				          	<!-- /end breadcrubms -->
+				          	<a class="btn btn-nav sp-section-nav-btn pull-right hidden-desktop" data-toggle="collapse" data-target=".section-collapse">
+	            				<i class="icon-chevron-down"></i>
+	          				</a>
+				          	<a class="btn pull-right visible-desktop">
+				          		<i class="icon-off"></i>&nbsp;Logout
+				          	</a>
+				    	</div>
+					</div>
+				</div>
+				<!-- /end sectionHeader -->
+			</div>
+			<!-- /end sectionHeaderBackground -->
+
+			<div class="pageHeaderBackground">
+		    	<div class="pageHeader container">
+		    		<div class="section-collapse collapse hidden-desktop">
+			        	<ul class="nav nav-tabs nav-stacked section-nav">
+						  <li><a href="#"><i class="icon-picture"></i>&nbsp;Edit Profile Picture</a><li>
+						  <li><a href="#"><i class="icon-off"></i>&nbsp;Log Out</a></li>
+						</ul>
+			        </div>
+			        <div class="pageTitle"></div>
+		    	</div>
+				<!-- /end pageHeader -->
+			</div>
+			<!-- /end pageHeaderBackground -->
+			
+			<div class="mainBackground">
+				<div class="container">
+					<div class="row">
+
+						<div class="span4">
+							<section id="profilePicture" class="mlhGrouping visible-desktop">
+
+								<div class="row-fluid">
+									<div class="span12">
+										<a class="btn"><i class="icon-picture"></i>&nbsp;Edit Picture</a>
+									<div>
+								</div>
+
+							</section>
+
+								<section id="profileStatus" class="mlhGrouping">
+
+								<div class="row-fluid">
+									<div class="">
+										<h2>Profile Status</h2>
+										<p class="desc">When you add information to your profile, it is stored in our system to speed the process of online bill pay.</p>
+									    
+									    <p>Note: We do not store credit card information in our system.</p>
+									</div>
+
+									<div class="">
+										<fieldset id="profileMeterGroup">
+											<div id="profileMeter" class="progress progress-striped">
+												<span id="profileMeterBar" class="bar" style="width: 29%"></span>
+											</div>
+
+											<div id="profileMeterStatus" class="profile-status">30% complete</div>
+										</fieldset>
+										<!-- /end profileMeter -->
+
+										<input type="button" class="btn btn-info" value="Edit Profile">
+
+										<fieldset id="profileCompletionTips">
+											<legend>Profile Completion Tips</legend>
+
+											<ul class="tipListing">
+												<li class="tip">Edit Your <a href="#">Pre-Registration Information</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Contact-Info">Mailing Address</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Billing-Info">Billing Information</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Contact-Info">Home Phone</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Contact-Info">Work Phone</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Contact-Info">Cell Phone</a></li>
+												<li class="tip">Add Your <a href="/apps/mymlh/profile/edit#Contact-Info">Preferred contact method(s)</a></li>
+											</ul>
+										</fieldset>
+
+									</div>
+								</div>
+
+							</section>
+						</div>
+
+						<div class="span8">
+
+							<section id="onlineBillPay" class="mlhGrouping">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Online Bill Pay</h2>
+										<p class="desc">Pay a Methodist Healthcare bill you received in the mail.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<input type="button" class="btn btn-success" value="Pay A Bill">
+
+										<fieldset id="billPayInfo">
+											<legend>You will need:</legend>
+											<ul>
+												<li>the bill you received in the mail</li>
+												<li>your credit card</li>
+											</ul>
+										</fieldset>
+
+									</div>
+								</div>
+
+							</section>
+
+							<section id="patientPortalModule" class="mlhGrouping">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Patient Portal</h2>
+										<p class="desc">As part of the electronic medical record, you now have access to a patient portal with your Methodist primary care physician.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<fieldset id="patientPortalInfo" class="first">
+											<legend>Within the patient portal, you can:</legend>
+											<ul>
+												<li>Request a medication refill</li>
+												<li>Update your contact information</li>
+												<li>Update any health changes</li>
+												<li>View lab results</li>
+											</ul>
+										</fieldset>
+										
+										<input type="button" class="btn btn-info" value="Access The Patient Portal">
+
+									</div>
+								</div>
+
+							</section>
+
+							<section id="commInfo" class="mlhGrouping last">
+
+								<div class="row-fluid">
+									<div class="span4">
+										<h2>Communication</h2>
+										<p class="desc">How would you like to hear from us? Edit your contact information and sign up for e-newsletters here.</p>
+									</div>
+
+									<div class="span8 right-col">
+										<input type="button" class="btn" value="Edit Your Contact Info">
+
+										<fieldset id="editNewsletter">
+											<legend>Newsletters</legend>
+											
+											<div class="inputGroup row-fluid first">
+												<div class="span9">
+													<h4>Be In The Know</h4>
+													<p class="desc">Sign up for news &amp; information from Methodist Healthcare</p>
+												</div>
+												<div class="span3">
+													<input type="button" value="Subscribe" class="btn" onclick="javascript:window.open('http://eepurl.com/hRm4U')">
+												</div>
+											</div>
+
+										</fieldset>
+									</div>									
+								</div>
+
+							</section>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /end mainBackground -->
+
+			<div class="footerBackground">
+				
+				<div class="footer-arc"></div>
+
+				<div class="container">
+					<div class="footerTop row">
+						<div class="span6">
+							<h4 class="footerBrand"><i class="logoBeTreatedWell">Methodist Le Bonheur Healthcare</i></h4>
+						</div>
+					</div>
+
+					<div class="footerBottom row">
+						<div class="span3">
+							<div class="footerAddress">
+								<div class="vcard">
+									<p class="tel">(901) 516-7000</p>
+									<p class="adr">
+										<span class="street-address">1211 Union Avenue</span>
+										<span class="region">Memphis, Tennessee</span>
+										<span class="postal-code">38104</span>
+									</p>
+								</div>
+							</div>
+
+							<ul class="nav nav-pills contactLinks ">
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Newsroom</a></li>
+							</ul>
+						</div>
+
+						<div class="span4">
+							<p class="footerDesc">Methodist Healthcare is an integrated health care delivery system, dedicated to the art of healing through our faith-based commitment to minister to the whole person.</p>
+						</div>
+
+						<div class="span5">
+
+							<div class="footerSocial row">
+								<ul class="socialIcons pull-right">
+									<li><a href="#"><i class="icoSocial icoFacebook">Facebook</i></a></li>
+									<li><a href="#"><i class="icoSocial icoTwitter">Twitter</i></a></li>
+									<li><a href="#"><i class="icoSocial icoYouTube">YouTube</i></a></li>
+								</ul>
+							</div>
+
+							<div class="footerLegal row">
+								<ul class="nav nav-pills legalLinks pull-right">
+									<li><a href="#">Our Centers</a></li>
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Disclaimer</a></li>
+									<li><a href="#">Legal</a></li>
+								</ul>
+
+								<p class="copyright small pull-right">&copy; 2013 Methodist Le Bonheur Healthcare. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /end footerBackground -->
+			
+		</div>
+		<!-- /end Page -->
+	
+	
+		<!-- JavaScript
+		================================================== -->
+		  	<!-- JavaScript at the bottom for fast page loading -->
+		
+		 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		 	<script>window.jQuery || document.write('<script src="js/lib/jquery.min.js"><\/script>')</script>
+	
+			<!-- Call to Twitter Bootsrap -->
+			<script src="js/lib/bootstrap.min.js"></script>
+			
+			<!-- Call to Custom JS -->
+			<script src="js/application.js"></script>
+
+			
+			<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);"> <!-- Mobile Safari URL shift -->
+			<!-- /end scripts -->
+			
+		<!-- End Document
+		================================================== -->	
+	
+	</body>
+	<!-- /end body -->
+	
+</html>
+<!-- /end html -->

@@ -14,7 +14,7 @@
 		================================================== -->
 			<meta charset="utf-8" />
 			<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-			<title></title>
+			<title>myMLH - Login</title>
 			<meta name="description" content="">
 			
 		<!-- Mobile Specific Metas
@@ -122,20 +122,27 @@
 					<div class="navbar">
 				  		<div class="navbar-inner">
 
-					      	<div class="btn-toolbar hidden-desktop">
-			                   <div class="btn-group">
-			                      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-			                      <a class="btn btn-nav" data-toggle="collapse" data-target=".nav-collapse">
-			                        <i class="icon-th-list"></i>
-			                      </a>
-			                   
-			                      <!-- .btn-navbar is used as the toggle for collapsed search content -->
-			                      <a class="btn btn-nav" data-toggle="collapse" data-target=".search-collapse">
-			                          <i class="icon-search"></i>
-			                      </a>
-			                    </div>
-			                    <!-- /end mobile btn-group -->
-			                </div>
+					      	<div class="navbar-mobile hidden-desktop">
+								<div class="btn-toolbar pull-right">
+									<div class="btn-group">
+										<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+										<a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">
+											<i class="icon-th-list"></i>
+									    </a>
+									   
+									    <!-- .btn-navbar is used as the toggle for collapsed search content -->
+									    <a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".search-collapse">
+									    	<i class="icon-search"></i>
+									    </a>
+								    </div>
+								    <!-- /end mobile btn-group -->
+							    </div>
+							    <!-- /end btn-toolbar -->
+							      
+							    <!-- Be sure to leave the brand out there if you want it shown -->
+							    <a class="brand brand-meth visible-phone" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					 	  	</div>
+					 	  	<!-- /end navbar-mobile -->
 					 
 					      	<!-- Everything you want hidden at 940px or less, place within here -->
 					      	<div class="nav-collapse collapse">
@@ -230,7 +237,9 @@
 			<!-- /end sectionHeaderBackground -->
 
 			<div class="pageHeaderBackground">
-		    	<div class="pageHeader container"></div>
+		    	<div class="pageHeader container">
+			        <div class="pageTitle"></div>
+		    	</div>
 				<!-- /end pageHeader -->
 			</div>
 			<!-- /end pageHeaderBackground -->
@@ -242,8 +251,7 @@
 							<form class="mlhGrouping">
 								<fieldset class="control-group">
 									<legend>What is your email address?</legend>
-									<input class="input-block-level"type="email">
-    								<span class="help-block">Something may have gone wrong</span>
+									<input class="input-block-level" type="email" title="Email Address" placeholder="Jane.Doe@mlh.org" required>
 								</fieldset>
 
 								<fieldset id="myPassword" class="control-group">
@@ -255,12 +263,11 @@
 										</label>
 
 										<label for="accountYes" class="side">
-											<input type="radio" name="account" id="accountYes" checked="checked">
+											<input type="radio" name="account" id="accountYes" required>
 											Yes, I have an account. <span class="myPass">My password is:</span>
 										</label>
 
 										<input class="input-block-level" type="password">
-	    								<span class="help-block">Something may have gone wrong</span>
 								</fieldset>
 
 								<div class="form-actions">

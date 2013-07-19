@@ -1,0 +1,675 @@
+/*
+* MLH Framework v1.0
+*
+* Copyright 2013 Methodist Le Bonheur Healthcare
+* Licensed under the Apache License v2.0
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Designed with care by @lougriffith
+*/
+/* line 7, ../scss/mlh/_bits.scss */
+.movin-on-up {
+  margin-top: -10px; }
+
+/* line 1, ../scss/mlh/_typography.scss */
+.copyright {
+  font-size: .8em; }
+
+/* line 3, ../scss/mlh/_header.scss */
+.headerBackground .toolbar {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+  /* line 10, ../scss/mlh/_header.scss */
+  .headerBackground .toolbar a {
+    color: #fff;
+    font-size: .8em; }
+/* line 16, ../scss/mlh/_header.scss */
+.headerBackground .input-append {
+  margin-bottom: 0px; }
+/* line 20, ../scss/mlh/_header.scss */
+.headerBackground form {
+  margin-right: 10px;
+  margin-bottom: 10px; }
+
+/* line 1, ../scss/mlh/_nav.scss */
+.navbar {
+  margin-bottom: 0px; }
+
+/* line 5, ../scss/mlh/_nav.scss */
+.navbar-inner {
+  padding: 0px;
+  background: none;
+  border: none;
+  box-shadow: none; }
+
+/* line 1, ../scss/mlh/_footer.scss */
+.footerDesc {
+  font-size: .9em;
+  line-height: 1.4em; }
+
+/* line 7, ../scss/mlh/_footer.scss */
+.footerAddress {
+  font-size: .9em; }
+  /* line 10, ../scss/mlh/_footer.scss */
+  .footerAddress .tel {
+    font-size: 1.5em; }
+  /* line 14, ../scss/mlh/_footer.scss */
+  .footerAddress .adr {
+    font-size: 1.1em; }
+    /* line 18, ../scss/mlh/_footer.scss */
+    .footerAddress .adr .street-address {
+      display: block; }
+
+/* line 30, ../scss/mlh/_footer.scss */
+ul.contactLinks {
+  margin-bottom: 0px; }
+  /* line 33, ../scss/mlh/_footer.scss */
+  ul.contactLinks li a {
+    font-size: .9em; }
+
+/* line 38, ../scss/mlh/_footer.scss */
+ul.legalLinks {
+  margin-bottom: 0px; }
+  /* line 41, ../scss/mlh/_footer.scss */
+  ul.legalLinks li a {
+    font-size: .9em; }
+
+/* line 46, ../scss/mlh/_footer.scss */
+.copyright {
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+@media only screen and (max-width: 500px) {
+  /* line 54, ../scss/mlh/_footer.scss */
+  .copyright {
+    display: none; } }
+/* line 1, ../scss/mlh/_widgets.scss */
+.widget {
+  background: white;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  border: 1px solid #cfcfcf;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 12, ../scss/mlh/_widgets.scss */
+.widgetTitle {
+  font-size: 1.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #666;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DDD; }
+
+/* line 25, ../scss/mlh/_widgets.scss */
+.storyWidget .storyList {
+  list-style: none;
+  margin-left: 0px; }
+  /* line 29, ../scss/mlh/_widgets.scss */
+  .storyWidget .storyList li {
+    margin-bottom: 20px; }
+/* line 34, ../scss/mlh/_widgets.scss */
+.storyWidget .storyInfo h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 5px; }
+
+/* line 43, ../scss/mlh/_widgets.scss */
+.blogWidget .blogFeature h3 {
+  font-size: 1.3em;
+  line-height: 1.2em;
+  margin-bottom: 5px; }
+/* line 49, ../scss/mlh/_widgets.scss */
+.blogWidget .blogLinks {
+  /* due to padding of the overall widget */
+  margin-left: 0px; }
+/* line 54, ../scss/mlh/_widgets.scss */
+.blogWidget .blogList {
+  list-style: none;
+  /* due to padding of the overall widget */
+  margin-left: 20px; }
+  /* line 59, ../scss/mlh/_widgets.scss */
+  .blogWidget .blogList li {
+    margin-bottom: 20px; }
+  /* line 63, ../scss/mlh/_widgets.scss */
+  .blogWidget .blogList h3 {
+    font-size: 1.2em;
+    line-height: 1.1em;
+    margin-bottom: 5px; }
+
+/* line 74, ../scss/mlh/_widgets.scss */
+.eventWidget .eventList {
+  list-style: none;
+  margin-left: 0px; }
+  /* line 78, ../scss/mlh/_widgets.scss */
+  .eventWidget .eventList li {
+    margin-bottom: 20px; }
+/* line 84, ../scss/mlh/_widgets.scss */
+.eventWidget .eventDisplay {
+  float: left;
+  text-align: center;
+  border: 1px solid #DDD;
+  width: 50px;
+  background: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+  /* line 94, ../scss/mlh/_widgets.scss */
+  .eventWidget .eventDisplay .eventDate {
+    padding: 0px;
+    width: 50px; }
+  /* line 99, ../scss/mlh/_widgets.scss */
+  .eventWidget .eventDisplay .eventMonth {
+    color: white;
+    background: red;
+    padding: 2px 5px;
+    margin-bottom: 4px;
+    font-size: .9em;
+    display: block; }
+  /* line 108, ../scss/mlh/_widgets.scss */
+  .eventWidget .eventDisplay .eventDay {
+    padding: 2px 5px;
+    font-size: 1.4em; }
+/* line 114, ../scss/mlh/_widgets.scss */
+.eventWidget .eventInfo {
+  margin-left: 60px; }
+  /* line 117, ../scss/mlh/_widgets.scss */
+  .eventWidget .eventInfo h3 {
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-bottom: 5px; }
+
+/* line 82, socialIcons/white/*.png */
+.white-sprite, .icoFacebook, .icoPinterest, .icoTwitter, .icoYouTube {
+  background: url('../img/socialIcons/white-scf65b5f35c.png') no-repeat; }
+
+/* line 16, ../scss/mlh/_social.scss */
+.socialIcons {
+  list-style: none;
+  margin-top: 0px; }
+  /* line 20, ../scss/mlh/_social.scss */
+  .socialIcons li {
+    display: inline-block; }
+
+/* line 26, ../scss/mlh/_social.scss */
+.icoSocial {
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-indent: -9999px;
+  cursor: pointer;
+  background-color: #ddd; }
+
+/*
+.icoBehance{
+	@include socialIcon("inherit", $behance);
+	@include white-sprite(ico_Behance);
+}
+
+*/
+/*
+.icoLinkedIn{
+	@include socialIcon("inherit", $linkedin);
+	@include white-sprite(ico_LinkedIn);
+}
+*/
+/* line 60, ../scss/mlh/_social.scss */
+.icoFacebook {
+  background-color: "inherit";
+  background-position: 0 -292px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoFacebook:hover {
+    background-color: #365c9f; }
+
+/* line 65, ../scss/mlh/_social.scss */
+.icoPinterest {
+  background-color: "inherit";
+  background-position: 0 -63px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoPinterest:hover {
+    background-color: #cf2a28; }
+
+/* line 70, ../scss/mlh/_social.scss */
+.icoTwitter {
+  background-color: "inherit";
+  background-position: 0 -126px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoTwitter:hover {
+    background-color: #00acf1; }
+
+/*
+.icoVimeo{
+	@include socialIcon("inherit", $vimeo);
+	@include white-sprite(ico_Vimeo);
+}
+*/
+/* line 82, ../scss/mlh/_social.scss */
+.icoYouTube {
+  background-color: "inherit";
+  background-position: 0 0; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoYouTube:hover {
+    background-color: #cb3525; }
+
+@media only screen and (max-width: 500px) {
+  /* line 90, ../scss/mlh/_social.scss */
+  .footerBackground .pull-right {
+    float: none;
+    margin-left: 0px; } }
+/* Large desktop */
+/* Portrait tablet to landscape and desktop */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /* line 21, ../scss/mlh/_mediaQueries.scss */
+  body {
+    padding: 0px; }
+
+  /* line 25, ../scss/mlh/_mediaQueries.scss */
+  .container {
+    padding: 0px 20px; } }
+/* line 2, ../scss/mlh/_forms.scss */
+.mlhGrouping {
+  background: #FFF;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 10px #ddd;
+  padding: 10px 20px; }
+  /* line 12, ../scss/mlh/_forms.scss */
+  .mlhGrouping .span4 {
+    padding: 0px;
+    margin: 0px; }
+  /* line 17, ../scss/mlh/_forms.scss */
+  .mlhGrouping h2 {
+    font-size: 1.3em;
+    line-height: 1.3em;
+    padding: 0;
+    margin: 0 0 .3em; }
+  /* line 24, ../scss/mlh/_forms.scss */
+  .mlhGrouping .desc {
+    font-size: .9em;
+    color: #828282; }
+  /* line 29, ../scss/mlh/_forms.scss */
+  .mlhGrouping .right-col {
+    padding: 10px 10px 10px 20px;
+    border-left: 1px solid #ccc; }
+  /* line 34, ../scss/mlh/_forms.scss */
+  .mlhGrouping.last {
+    margin-bottom: 30px; }
+
+/* line 39, ../scss/mlh/_forms.scss */
+.dollar {
+  margin-right: 10px; }
+
+/* line 43, ../scss/mlh/_forms.scss */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 1em 1.2em 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(33%, rgba(255, 255, 255, 0)), color-stop(42%, rgba(255, 255, 255, 0.13)), color-stop(100%, #f7f7f7));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0.13) 42%, #f7f7f7 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#f7f7f7',GradientType=0 );
+  /* IE6-9 */ }
+  /* line 56, ../scss/mlh/_forms.scss */
+  fieldset.first {
+    margin-top: -10px; }
+
+/* line 62, ../scss/mlh/_forms.scss */
+.inputGroup.first {
+  margin-top: -10px; }
+
+/* line 67, ../scss/mlh/_forms.scss */
+.mlhInfo {
+  padding-top: 10px; }
+  /* line 69, ../scss/mlh/_forms.scss */
+  .mlhInfo h3 {
+    font-size: 1.3em;
+    line-height: 1.2em; }
+
+/* line 76, ../scss/mlh/_forms.scss */
+.mlhInputs {
+  border-left: 1px solid #ccc;
+  padding: 5px 20px;
+  margin: 10px 0px; }
+
+/* line 82, ../scss/mlh/_forms.scss */
+legend {
+  margin: 0px;
+  width: inherit;
+  padding: 10px;
+  color: #000;
+  font-weight: normal;
+  border-bottom: none;
+  font-size: 1em;
+  background: none;
+  line-height: 1.2em;
+  background: white; }
+
+/* line 95, ../scss/mlh/_forms.scss */
+legend + .control-group {
+  margin-top: -5px; }
+
+/* line 99, ../scss/mlh/_forms.scss */
+.mlhControls {
+  margin-left: 10px; }
+
+/* line 103, ../scss/mlh/_forms.scss */
+.form-actions {
+  margin-bottom: 10px; }
+
+/* line 107, ../scss/mlh/_forms.scss */
+.help-block {
+  font-size: .9em;
+  font-style: italic;
+  color: #999; }
+
+/* line 113, ../scss/mlh/_forms.scss */
+.profile-status {
+  margin-top: -10px; }
+
+@media (max-width: 979px) {
+  /* line 120, ../scss/mlh/_forms.scss */
+  input[type="submit"],
+  input[type="button"] {
+    width: 100%;
+    margin-bottom: 10px; }
+
+  /* line 125, ../scss/mlh/_forms.scss */
+  .myPass {
+    display: block; }
+
+  /* line 131, ../scss/mlh/_forms.scss */
+  .mlhGrouping .right-col {
+    padding: 0px;
+    border-left: none; } }
+@media (max-width: 480px) {
+  /* line 140, ../scss/mlh/_forms.scss */
+  .mlhGrouping {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 10px 10px; }
+    /* line 149, ../scss/mlh/_forms.scss */
+    .mlhGrouping .form-actions {
+      margin-bottom: 0px; }
+    /* line 153, ../scss/mlh/_forms.scss */
+    .mlhGrouping .right-col {
+      margin-top: 20px; } }
+/* line 98, ../img/lebonheur/*.png */
+.lebonheur-sprite, .logoLeBonHeader, .logoLeBonFooter, .badgeBest, .icoFacebook, .icoTwitter, .icoYouTube, .icoPinterest {
+  background: url('../img/../img/lebonheur-s401f55fa03.png') no-repeat; }
+
+/* line 4, ../scss/lebonheur/_sprite.scss */
+.socialIcons {
+  list-style: none;
+  margin-top: 10px; }
+  /* line 8, ../scss/lebonheur/_sprite.scss */
+  .socialIcons li {
+    display: inline-block; }
+  /* line 12, ../scss/lebonheur/_sprite.scss */
+  .socialIcons li > a {
+    text-indent: -9999px; }
+
+/* line 18, ../scss/lebonheur/_sprite.scss */
+.icoSocial {
+  display: block;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 5px; }
+
+/* line 27, ../scss/lebonheur/_sprite.scss */
+.logoLeBonHeader {
+  background-position: 0 -122px;
+  margin: 0px;
+  width: 230px;
+  height: 66px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-indent: -9999px;
+  cursor: pointer;
+  display: block; }
+
+/* line 39, ../scss/lebonheur/_sprite.scss */
+.logoLeBonFooter {
+  background-position: 0 -188px;
+  margin: 0px;
+  width: 160px;
+  height: 46px;
+  text-indent: -9999px;
+  display: block; }
+
+/* line 48, ../scss/lebonheur/_sprite.scss */
+.badgeBest {
+  background-position: 0 0;
+  margin: 0px;
+  width: 109px;
+  height: 122px;
+  text-indent: -9999px;
+  display: block; }
+
+/* line 57, ../scss/lebonheur/_sprite.scss */
+.icoFacebook {
+  background-color: #de8000;
+  background-position: 0 -350px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoFacebook:hover {
+    background-color: #365c9f; }
+
+/* line 62, ../scss/lebonheur/_sprite.scss */
+.icoTwitter {
+  background-color: #de8000;
+  background-position: 0 -318px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoTwitter:hover {
+    background-color: #00acf1; }
+
+/* line 67, ../scss/lebonheur/_sprite.scss */
+.icoYouTube {
+  background-color: #de8000;
+  background-position: 0 -286px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoYouTube:hover {
+    background-color: #cb3525; }
+
+/* line 72, ../scss/lebonheur/_sprite.scss */
+.icoPinterest {
+  background-color: #de8000;
+  background-position: 0 -254px; }
+  /* line 38, ../scss/mlh/_social.scss */
+  .icoPinterest:hover {
+    background-color: #cf2a28; }
+
+/* line 1, ../scss/lebonheur/_header.scss */
+.headerBackground {
+  background: #004b95;
+  background: -moz-linear-gradient(90deg, #003a71 0.2%, #0055a5 100%), #0055a5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.002, #003a71), to(#0055a5)), #0055a5;
+  box-shadow: inset 0 2px 20px #013b73, 0 2px 5px #433c3c;
+  color: white; }
+  /* line 8, ../scss/lebonheur/_header.scss */
+  .headerBackground .toolbar {
+    border: none;
+    font-size: 1.2em; }
+    /* line 12, ../scss/lebonheur/_header.scss */
+    .headerBackground .toolbar li a:hover {
+      background: #004386; }
+
+/* line 1, ../scss/lebonheur/_nav.scss */
+.navBackground {
+  position: relative; }
+
+/* line 7, ../scss/lebonheur/_nav.scss */
+.navbar.navbar-inverse .navbar-inner {
+  position: relative;
+  text-align: center;
+  margin-top: -7px;
+  margin-left: -7px;
+  margin-right: -7px;
+  z-index: 200;
+  background: #ce2c18;
+  background: -moz-linear-gradient(90deg, #900000 0%, #ef3e36 100%), #990000;
+  background: -webkit-gradient(linear, left bottom, left top, from(#900000), to(#ef3e36)), #990000;
+  -moz-box-shadow: inset 0 2px 10px #e16262, 0 2px 5px #433c3c;
+  -webkit-box-shadow: inset 0 2px 10px #e16262, 0 2px 5px #433c3c;
+  box-shadow: inset 0 2px 10px #e16262, 0 2px 5px #433c3c; }
+/* line 22, ../scss/lebonheur/_nav.scss */
+.navbar.navbar-inverse ul.nav > li > a {
+  font-size: 1.2em;
+  padding: .6em 1.15em;
+  color: white; }
+  /* line 28, ../scss/lebonheur/_nav.scss */
+  .navbar.navbar-inverse ul.nav > li > a:hover, .navbar.navbar-inverse ul.nav > li > a:focus {
+    background: #a4170f;
+    box-shadow: inset 0 1px 5px #741d18; }
+
+/* line 36, ../scss/lebonheur/_nav.scss */
+.navbar .nav,
+.navbar .nav > li {
+  float: none;
+  display: inline-block;
+  *display: inline;
+  /* ie7 fix */
+  *zoom: 1;
+  /* hasLayout ie7 trigger */
+  vertical-align: top; }
+
+/* line 44, ../scss/lebonheur/_nav.scss */
+#navRibbon {
+  height: 32px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+  background: #990000;
+  -moz-box-shadow: inset 0 2px 20px #e16262, 0 2px 5px #433c3c;
+  -webkit-box-shadow: inset 0 2px 20px #e16262, 0 2px 5px #433c3c;
+  box-shadow: inset 0 2px 20px #e16262, 0 2px 5px #433c3c; }
+
+/* line 57, ../scss/lebonheur/_nav.scss */
+.thread {
+  position: relative;
+  border-top: 1px dashed #EC4850;
+  padding-bottom: 3px;
+  top: -2px; }
+  /* line 63, ../scss/lebonheur/_nav.scss */
+  .thread.background {
+    top: -11px;
+    z-index: 40; }
+
+/* line 1, ../scss/lebonheur/_footer.scss */
+.footerBackground {
+  background: #004b95;
+  background: -moz-linear-gradient(90deg, #003a71 0.2%, #0055a5 100%), #0055a5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0.002, #003a71), to(#0055a5)), #0055a5;
+  box-shadow: inset 0 2px 20px #013b73, 0 2px 5px #433c3c;
+  color: white;
+  padding-bottom: 20px; }
+
+/* line 10, ../scss/lebonheur/_footer.scss */
+ul.nav-mega {
+  margin-bottom: 2em; }
+  /* line 13, ../scss/lebonheur/_footer.scss */
+  ul.nav-mega li > a {
+    display: list-item;
+    color: #fff;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    margin-bottom: 5px;
+    text-decoration: none;
+    padding: 5px 0px;
+    text-shadow: none; }
+    /* line 23, ../scss/lebonheur/_footer.scss */
+    ul.nav-mega li > a:hover {
+      background: none;
+      text-decoration: underline; }
+  /* line 29, ../scss/lebonheur/_footer.scss */
+  ul.nav-mega ul {
+    list-style: none; }
+  /* line 33, ../scss/lebonheur/_footer.scss */
+  ul.nav-mega ul > li > a {
+    color: #aaa;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 2px;
+    padding: 0px;
+    text-shadow: none; }
+
+/* line 44, ../scss/lebonheur/_footer.scss */
+span.footer-address {
+  font-size: 1.1em;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+  display: block; }
+
+/* line 51, ../scss/lebonheur/_footer.scss */
+span.footer-phone {
+  font-size: 1.2em; }
+  /* line 54, ../scss/lebonheur/_footer.scss */
+  span.footer-phone a {
+    color: white;
+    text-decoration: none; }
+
+/* line 60, ../scss/lebonheur/_footer.scss */
+span.footerMotto {
+  color: #004b95;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed #fff;
+  font: 14px Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 5px; }
+
+/* line 70, ../scss/lebonheur/_footer.scss */
+.socialLinks {
+  text-align: center;
+  background-color: #ffb045;
+  padding: 0 1em;
+  box-shadow: inset 0 2px 20px #e16262; }
+
+/* line 77, ../scss/lebonheur/_footer.scss */
+.footerThread {
+  display: block;
+  padding-top: 10px;
+  border-bottom: 1px dashed #FFF;
+  margin-bottom: 30px; }
+
+/* line 9, ../scss/lebonheur.scss */
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #444; }
+
+@media (max-width: 767px) {
+  /* line 16, ../scss/lebonheur.scss */
+  body {
+    padding: 0px; }
+
+  /* line 18, ../scss/lebonheur.scss */
+  .container {
+    padding-left: 10px;
+    padding-right: 10px; } }

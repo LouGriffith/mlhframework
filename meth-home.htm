@@ -67,7 +67,7 @@
 			<!-- CSS
 		================================================== -->
 			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<!-- <link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
+			<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 			<link rel="stylesheet" href="css/methodist.css">
 
 			<!-- Google Font -->
@@ -121,12 +121,28 @@
 				<div class="container">
 					<div class="navbar">
 				  		<div class="navbar-inner">
-					    	<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-					    	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					        	<span class="icon-bar"></span>
-					      	</a>
+
+					      	<div class="navbar-mobile hidden-desktop">
+								<div class="btn-toolbar pull-right">
+									<div class="btn-group">
+										<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+										<a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">
+											<i class="icon-th-list"></i>
+									    </a>
+									   
+									    <!-- .btn-navbar is used as the toggle for collapsed search content -->
+									    <a class="btn btn-nav hidden-desktop" data-toggle="collapse" data-target=".search-collapse">
+									    	<i class="icon-search"></i>
+									    </a>
+								    </div>
+								    <!-- /end mobile btn-group -->
+							    </div>
+							    <!-- /end btn-toolbar -->
+							      
+							    <!-- Be sure to leave the brand out there if you want it shown -->
+							    <a class="brand brand-meth visible-phone" href="#"><i class="logoMethodist">Methodist Le Bonheur Healthcare</i></a>
+					 	  	</div>
+					 	  	<!-- /end navbar-mobile -->
 					 
 					      	<!-- Everything you want hidden at 940px or less, place within here -->
 					      	<div class="nav-collapse collapse">
@@ -180,12 +196,22 @@
 					        	</ul>
 					        	<!-- /end right nav-main -->
 					      	</div>
+					      	<!-- /end main nav -->
+
+					      	<div class="search-collapse collapse hidden-desktop">
+					      		<form class="mobile-search" action="/mlhsearch/" method="get">
+							    	<input type="text" class="search-query" placeholder="Search" name="q" id="searchField">
+									<input class="searchButton" type="submit" alt="Search" value="Go">
+							    </form>
+					            <!-- /end mobile-search -->
+			                </div>
+			                <!-- /end mobile search -->
 				 
 				    	</div>
 				  	</div>
 				</div>
 			</div>
-			<!-- /end headerBackground -->
+			<!-- /end navBackground -->
 
 			<div class="heroBackground">
 				<div class="container">
